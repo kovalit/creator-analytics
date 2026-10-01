@@ -24,8 +24,8 @@ export function AppShell() {
       </aside>
 
       {/* Mobile top bar */}
-      <div className="sticky top-0 z-20 flex h-14 items-center justify-between border-b border-border bg-surface px-4 lg:hidden">
-        <BrandLogo height={22} />
+      <div className="sticky top-0 z-20 flex min-h-14 items-center justify-between py-2 border-b border-border bg-surface px-4 lg:hidden">
+        <BrandLogo variant="compact" height={18} />
         <button
           onClick={() => setMobileOpen(true)}
           aria-label="Открыть меню"

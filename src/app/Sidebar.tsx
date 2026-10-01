@@ -43,8 +43,8 @@ export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
   return (
     <div className="flex h-full flex-col bg-surface">
       {/* Brand */}
-      <div className="px-5 pb-2 pt-6">
-        <BrandLogo height={24} />
+      <div className="px-3 pb-1 pt-4">
+        <BrandLogo />
       </div>
 
       {/* Nav */}
