@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import { PRIMARY_NAV, SECONDARY_NAV, type NavItem } from './nav';
 import { dataset } from '@/data/dataset';
 import { Avatar } from '@/components/ui/Avatar';
+import { BrandLogo } from '@/components/ui/BrandLogo';
 import { compactNumber } from '@/analytics/formatters';
 import { cn } from '@/lib/cn';
 
@@ -42,23 +43,8 @@ export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
   return (
     <div className="flex h-full flex-col bg-surface">
       {/* Brand */}
-      <div className="flex items-center gap-2.5 px-5 pb-2 pt-6">
-        <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-white shadow-sm">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-            <path
-              d="M4 7l2.6 10L9.5 9.5 12.5 17 15 7"
-              stroke="currentColor"
-              strokeWidth="2.1"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            <circle cx="19" cy="7" r="1.5" fill="currentColor" />
-          </svg>
-        </div>
-        <div className="leading-tight">
-          <div className="text-[14.5px] font-bold text-text-primary">WhatsBetter<span className="text-primary">.me</span></div>
-          <div className="text-[11.5px] font-medium text-text-tertiary">Creator</div>
-        </div>
+      <div className="px-5 pb-2 pt-6">
+        <BrandLogo height={24} />
       </div>
 
       {/* Nav */}

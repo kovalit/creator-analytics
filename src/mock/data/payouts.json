@@ -6,7 +6,7 @@
       "from": "2026-04-01",
       "to": "2026-04-30"
     },
-    "amount": 115000,
+    "amount": 113970,
     "currency": "RUB",
     "status": "paid",
     "paidAt": "2026-05-05T12:00:00+03:00",
@@ -19,7 +19,7 @@
       "from": "2026-05-01",
       "to": "2026-05-31"
     },
-    "amount": 145000,
+    "amount": 142210,
     "currency": "RUB",
     "status": "paid",
     "paidAt": "2026-06-05T12:00:00+03:00",
@@ -32,7 +32,7 @@
       "from": "2026-06-01",
       "to": "2026-06-30"
     },
-    "amount": 190000,
+    "amount": 189860,
     "currency": "RUB",
     "status": "paid",
     "paidAt": "2026-07-06T12:00:00+03:00",
@@ -45,7 +45,7 @@
       "from": "2026-07-01",
       "to": "2026-07-31"
     },
-    "amount": 225000,
+    "amount": 223040,
     "currency": "RUB",
     "status": "paid",
     "paidAt": "2026-08-05T12:00:00+03:00",
@@ -58,7 +58,7 @@
       "from": "2026-08-01",
       "to": "2026-08-31"
     },
-    "amount": 295000,
+    "amount": 294880,
     "currency": "RUB",
     "status": "paid",
     "paidAt": "2026-09-05T12:00:00+03:00",
@@ -71,7 +71,7 @@
       "from": "2026-09-01",
       "to": "2026-09-15"
     },
-    "amount": 40000,
+    "amount": 42310,
     "currency": "RUB",
     "status": "paid",
     "paidAt": "2026-09-18T12:00:00+03:00",
@@ -84,7 +84,7 @@
       "from": "2026-09-16",
       "to": "2026-09-30"
     },
-    "amount": 190000,
+    "amount": 188640,
     "currency": "RUB",
     "status": "scheduled",
     "paidAt": null,

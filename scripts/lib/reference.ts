@@ -24,7 +24,7 @@ export const SOCIAL_ACCOUNTS = [
     handle: '@alina_beauty',
     url: 'https://vk.com/alina_beauty',
     connected: true,
-    followers: 215000,
+    followers: 214380,
   },
   {
     id: 'social_telegram_1',
@@ -34,7 +34,7 @@ export const SOCIAL_ACCOUNTS = [
     handle: '@alina_beauty',
     url: 'https://t.me/alina_beauty',
     connected: true,
-    followers: 127000,
+    followers: 126540,
   },
   {
     id: 'social_youtube_1',
@@ -44,7 +44,7 @@ export const SOCIAL_ACCOUNTS = [
     handle: '@alina.beauty',
     url: 'https://youtube.com/@alina.beauty',
     connected: true,
-    followers: 380000,
+    followers: 379210,
   },
   {
     id: 'social_rutube_1',
@@ -54,7 +54,7 @@ export const SOCIAL_ACCOUNTS = [
     handle: 'alina_beauty',
     url: 'https://rutube.ru/channel/alina_beauty',
     connected: true,
-    followers: 120000,
+    followers: 117860,
   },
 ];
 
@@ -521,6 +521,8 @@ export const SALES_CHANNELS = [
 ];
 
 // Целевые месячные агрегаты. Сентябрь — точный anchor.
+// Органические (не «ровные») месячные цели. Инварианты воронки и плавный
+// рост сохранены; сентябрь остаётся флагманским, но без круглых чисел.
 export const MONTHLY_TARGETS: Record<
   string,
   {
@@ -534,12 +536,12 @@ export const MONTHLY_TARGETS: Record<
     commission: number;
   }
 > = {
-  '2026-04': { views: 48000, clicks: 7000, productViews: 5040, addToCart: 1806, orders: 422, purchasedOrders: 333, gmv: 1150000, commission: 115000 },
-  '2026-05': { views: 57000, clicks: 8900, productViews: 6408, addToCart: 2287, orders: 518, purchasedOrders: 414, gmv: 1450000, commission: 145000 },
-  '2026-06': { views: 65000, clicks: 10600, productViews: 7632, addToCart: 2714, orders: 665, purchasedOrders: 535, gmv: 1900000, commission: 190000 },
-  '2026-07': { views: 73000, clicks: 12200, productViews: 8784, addToCart: 3123, orders: 772, purchasedOrders: 625, gmv: 2250000, commission: 225000 },
-  '2026-08': { views: 84000, clicks: 14900, productViews: 10728, addToCart: 3807, orders: 998, purchasedOrders: 813, gmv: 2950000, commission: 295000 },
-  '2026-09': { views: 100000, clicks: 18400, productViews: 13248, addToCart: 4700, orders: 1260, purchasedOrders: 1035, gmv: 3800000, commission: 380000 },
+  '2026-04': { views: 47320, clicks: 6912, productViews: 4973, addToCart: 1784, orders: 418, purchasedOrders: 329, gmv: 1138420, commission: 113970 },
+  '2026-05': { views: 56180, clicks: 8742, productViews: 6291, addToCart: 2246, orders: 509, purchasedOrders: 408, gmv: 1438760, commission: 142210 },
+  '2026-06': { views: 64390, clicks: 10486, productViews: 7548, addToCart: 2681, orders: 658, purchasedOrders: 529, gmv: 1892540, commission: 189860 },
+  '2026-07': { views: 72640, clicks: 12118, productViews: 8722, addToCart: 3101, orders: 767, purchasedOrders: 621, gmv: 2243870, commission: 223040 },
+  '2026-08': { views: 83510, clicks: 14826, productViews: 10672, addToCart: 3782, orders: 992, purchasedOrders: 808, gmv: 2938160, commission: 294880 },
+  '2026-09': { views: 99428, clicks: 18356, productViews: 13212, addToCart: 4673, orders: 1254, purchasedOrders: 1031, gmv: 3786240, commission: 379150 },
 };
 
 export const MONTHS = Object.keys(MONTHLY_TARGETS);
@@ -563,13 +565,13 @@ export const MANIFEST = {
   creatorId: CREATOR.id,
   creatorName: CREATOR.displayName,
   anchor: {
-    views: 100000,
-    clicks: 18400,
-    addToCart: 4700,
-    orders: 1260,
-    purchasedOrders: 1035,
-    gmv: 3800000,
-    commission: 380000,
+    views: MONTHLY_TARGETS['2026-09'].views,
+    clicks: MONTHLY_TARGETS['2026-09'].clicks,
+    addToCart: MONTHLY_TARGETS['2026-09'].addToCart,
+    orders: MONTHLY_TARGETS['2026-09'].orders,
+    purchasedOrders: MONTHLY_TARGETS['2026-09'].purchasedOrders,
+    gmv: MONTHLY_TARGETS['2026-09'].gmv,
+    commission: MONTHLY_TARGETS['2026-09'].commission,
   },
 };
 

@@ -226,12 +226,12 @@ function buildAudience() {
     string,
     { known: number; active: number; new30: number; returning: number; buyers: number; rated: number; subSphere: number }
   > = {
-    '2026-04': { known: 41200, active: 24800, new30: 9100, returning: 15700, buyers: 2050, rated: 7100, subSphere: 10200 },
-    '2026-05': { known: 46800, active: 28200, new30: 9900, returning: 18300, buyers: 2420, rated: 8300, subSphere: 11600 },
-    '2026-06': { known: 51600, active: 31500, new30: 10400, returning: 21100, buyers: 2760, rated: 9300, subSphere: 12900 },
-    '2026-07': { known: 56400, active: 34800, new30: 11200, returning: 23600, buyers: 3080, rated: 10400, subSphere: 14100 },
-    '2026-08': { known: 62100, active: 38600, new30: 12100, returning: 26500, buyers: 3510, rated: 11700, subSphere: 15500 },
-    '2026-09': { known: 68400, active: 42100, new30: 12700, returning: 29400, buyers: 3890, rated: 12800, subSphere: 16700 },
+    '2026-04': { known: 41240, active: 24830, new30: 9140, returning: 15690, buyers: 2048, rated: 7130, subSphere: 10210 },
+    '2026-05': { known: 46870, active: 28210, new30: 9880, returning: 18340, buyers: 2416, rated: 8290, subSphere: 11630 },
+    '2026-06': { known: 51630, active: 31460, new30: 10430, returning: 21080, buyers: 2763, rated: 9340, subSphere: 12880 },
+    '2026-07': { known: 56420, active: 34770, new30: 11180, returning: 23620, buyers: 3077, rated: 10420, subSphere: 14130 },
+    '2026-08': { known: 62080, active: 38640, new30: 12090, returning: 26510, buyers: 3514, rated: 11690, subSphere: 15470 },
+    '2026-09': { known: 68430, active: 42080, new30: 12730, returning: 29380, buyers: 3892, rated: 12810, subSphere: 16740 },
   };
 
   const genderBy: Record<string, [number, number, number]> = {
@@ -309,16 +309,16 @@ function buildAudience() {
   ];
 
   const sphereSubscriptions = [
-    { sphereId: 'sphere_skincare', subscribersFromAudience: 24600, share: 0.584, growth30d: 0.082 },
-    { sphereId: 'sphere_beauty', subscribersFromAudience: 21300, share: 0.506, growth30d: 0.061 },
-    { sphereId: 'sphere_face_cream', subscribersFromAudience: 18900, share: 0.449, growth30d: 0.097 },
-    { sphereId: 'sphere_travel', subscribersFromAudience: 12400, share: 0.294, growth30d: 0.054 },
-    { sphereId: 'sphere_healthy_food', subscribersFromAudience: 10800, share: 0.256, growth30d: 0.069 },
-    { sphereId: 'sphere_perfume', subscribersFromAudience: 9600, share: 0.228, growth30d: 0.043 },
-    { sphereId: 'sphere_fashion', subscribersFromAudience: 9100, share: 0.216, growth30d: 0.038 },
-    { sphereId: 'sphere_spf', subscribersFromAudience: 7700, share: 0.183, growth30d: 0.121 },
-    { sphereId: 'sphere_hotels', subscribersFromAudience: 6200, share: 0.147, growth30d: 0.047 },
-    { sphereId: 'sphere_fitness', subscribersFromAudience: 5400, share: 0.128, growth30d: 0.029 },
+    { sphereId: 'sphere_skincare', subscribersFromAudience: 24580, share: 0.584, growth30d: 0.082 },
+    { sphereId: 'sphere_beauty', subscribersFromAudience: 21340, share: 0.507, growth30d: 0.061 },
+    { sphereId: 'sphere_face_cream', subscribersFromAudience: 18870, share: 0.448, growth30d: 0.097 },
+    { sphereId: 'sphere_travel', subscribersFromAudience: 12410, share: 0.295, growth30d: 0.054 },
+    { sphereId: 'sphere_healthy_food', subscribersFromAudience: 10790, share: 0.256, growth30d: 0.069 },
+    { sphereId: 'sphere_perfume', subscribersFromAudience: 9630, share: 0.229, growth30d: 0.043 },
+    { sphereId: 'sphere_fashion', subscribersFromAudience: 9080, share: 0.216, growth30d: 0.038 },
+    { sphereId: 'sphere_spf', subscribersFromAudience: 7720, share: 0.183, growth30d: 0.121 },
+    { sphereId: 'sphere_hotels', subscribersFromAudience: 6190, share: 0.147, growth30d: 0.047 },
+    { sphereId: 'sphere_fitness', subscribersFromAudience: 5410, share: 0.128, growth30d: 0.029 },
   ];
 
   // Criterion affinities для кремов для лица (>=10).
@@ -378,12 +378,12 @@ function buildAudience() {
     return {
       month,
       creatorId: CREATOR.id,
-      ratingViews: round(32800 * f),
-      ratingsCreated: round(9470 * f),
-      criteriaUsed: round(18200 * f),
-      entitiesCompared: round(11600 * f),
-      presetsCreated: round(1290 * f),
-      productsSaved: round(7820 * f),
+      ratingViews: round(33174 * f),
+      ratingsCreated: round(9472 * f),
+      criteriaUsed: round(18236 * f),
+      entitiesCompared: round(11628 * f),
+      presetsCreated: round(1293 * f),
+      productsSaved: round(7836 * f),
     };
   });
 
@@ -546,12 +546,12 @@ function buildCommerce() {
     idx++;
   }
 
-  // Целевой сентябрьский сплит (сумма earned = 380000; reversed отдельно).
+  // Целевой сентябрьский сплит (сумма earned = сентябрьская комиссия; reversed отдельно).
   const sepTargets: Record<string, number> = {
-    paid: 40000,
-    available: 190000,
-    pending: 110000,
-    estimated: 40000,
+    paid: 42310,
+    available: 188640,
+    pending: 107920,
+    estimated: 40280,
   };
   for (const st of ['paid', 'available', 'pending', 'estimated']) {
     const remainder = sepTargets[st] - sepDetailByStatus[st];
@@ -578,13 +578,13 @@ function buildCommerce() {
 
   // Payouts (суммы сходятся с paid-комиссиями).
   const payouts = [
-    { id: 'payout_2026_04', creatorId: CREATOR.id, period: { from: '2026-04-01', to: '2026-04-30' }, amount: 115000, currency: 'RUB', status: 'paid', paidAt: '2026-05-05T12:00:00+03:00', method: 'bank_account' },
-    { id: 'payout_2026_05', creatorId: CREATOR.id, period: { from: '2026-05-01', to: '2026-05-31' }, amount: 145000, currency: 'RUB', status: 'paid', paidAt: '2026-06-05T12:00:00+03:00', method: 'bank_account' },
-    { id: 'payout_2026_06', creatorId: CREATOR.id, period: { from: '2026-06-01', to: '2026-06-30' }, amount: 190000, currency: 'RUB', status: 'paid', paidAt: '2026-07-06T12:00:00+03:00', method: 'bank_account' },
-    { id: 'payout_2026_07', creatorId: CREATOR.id, period: { from: '2026-07-01', to: '2026-07-31' }, amount: 225000, currency: 'RUB', status: 'paid', paidAt: '2026-08-05T12:00:00+03:00', method: 'bank_account' },
-    { id: 'payout_2026_08', creatorId: CREATOR.id, period: { from: '2026-08-01', to: '2026-08-31' }, amount: 295000, currency: 'RUB', status: 'paid', paidAt: '2026-09-05T12:00:00+03:00', method: 'bank_account' },
-    { id: 'payout_2026_09_h1', creatorId: CREATOR.id, period: { from: '2026-09-01', to: '2026-09-15' }, amount: 40000, currency: 'RUB', status: 'paid', paidAt: '2026-09-18T12:00:00+03:00', method: 'bank_account' },
-    { id: 'payout_2026_09_h2', creatorId: CREATOR.id, period: { from: '2026-09-16', to: '2026-09-30' }, amount: 190000, currency: 'RUB', status: 'scheduled', paidAt: null, method: 'bank_account' },
+    { id: 'payout_2026_04', creatorId: CREATOR.id, period: { from: '2026-04-01', to: '2026-04-30' }, amount: MONTHLY_TARGETS['2026-04'].commission, currency: 'RUB', status: 'paid', paidAt: '2026-05-05T12:00:00+03:00', method: 'bank_account' },
+    { id: 'payout_2026_05', creatorId: CREATOR.id, period: { from: '2026-05-01', to: '2026-05-31' }, amount: MONTHLY_TARGETS['2026-05'].commission, currency: 'RUB', status: 'paid', paidAt: '2026-06-05T12:00:00+03:00', method: 'bank_account' },
+    { id: 'payout_2026_06', creatorId: CREATOR.id, period: { from: '2026-06-01', to: '2026-06-30' }, amount: MONTHLY_TARGETS['2026-06'].commission, currency: 'RUB', status: 'paid', paidAt: '2026-07-06T12:00:00+03:00', method: 'bank_account' },
+    { id: 'payout_2026_07', creatorId: CREATOR.id, period: { from: '2026-07-01', to: '2026-07-31' }, amount: MONTHLY_TARGETS['2026-07'].commission, currency: 'RUB', status: 'paid', paidAt: '2026-08-05T12:00:00+03:00', method: 'bank_account' },
+    { id: 'payout_2026_08', creatorId: CREATOR.id, period: { from: '2026-08-01', to: '2026-08-31' }, amount: MONTHLY_TARGETS['2026-08'].commission, currency: 'RUB', status: 'paid', paidAt: '2026-09-05T12:00:00+03:00', method: 'bank_account' },
+    { id: 'payout_2026_09_h1', creatorId: CREATOR.id, period: { from: '2026-09-01', to: '2026-09-15' }, amount: 42310, currency: 'RUB', status: 'paid', paidAt: '2026-09-18T12:00:00+03:00', method: 'bank_account' },
+    { id: 'payout_2026_09_h2', creatorId: CREATOR.id, period: { from: '2026-09-16', to: '2026-09-30' }, amount: 188640, currency: 'RUB', status: 'scheduled', paidAt: null, method: 'bank_account' },
   ];
 
   return { commerceOrders, commissions, payouts };
@@ -594,18 +594,18 @@ function buildCommerce() {
 
 function buildOpportunities() {
   return [
-    { id: 'offer_spf_2026_10', title: 'Что лучше: SPF 50', type: 'campaign', sphereId: 'sphere_spf', partnerIds: ['partner_nordskin', 'partner_hydrael'], commission: { type: 'percent', value: 0.12 }, audienceMatch: 0.93, estimated: { revenuePer1000Views: 4600, conversionRate: 0.061, expectedAov: 3900 }, startsAt: '2026-10-15', endsAt: '2026-11-15', image: '/demo/opportunities/spf.svg', status: 'available' },
-    { id: 'offer_serum_2026_10', title: 'Что лучше: сыворотки для лица', type: 'campaign', sphereId: 'sphere_skincare', partnerIds: ['partner_lumera', 'partner_velura', 'partner_hydrael'], commission: { type: 'percent', value: 0.11 }, audienceMatch: 0.91, estimated: { revenuePer1000Views: 4300, conversionRate: 0.058, expectedAov: 4200 }, startsAt: '2026-10-20', endsAt: '2026-11-20', image: '/demo/opportunities/serum.svg', status: 'available' },
-    { id: 'offer_perfume_2026_11', title: 'Что лучше: парфюмерия на осень', type: 'campaign', sphereId: 'sphere_perfume', partnerIds: ['partner_mireya', 'partner_lumera'], commission: { type: 'percent', value: 0.13 }, audienceMatch: 0.86, estimated: { revenuePer1000Views: 5100, conversionRate: 0.049, expectedAov: 5600 }, startsAt: '2026-11-01', endsAt: '2026-12-01', image: '/demo/opportunities/perfume.svg', status: 'available' },
-    { id: 'offer_hotels_2026_11', title: 'Что лучше: зимние курорты', type: 'campaign', sphereId: 'sphere_hotels', partnerIds: ['partner_velura', 'partner_botane'], commission: { type: 'percent', value: 0.08 }, audienceMatch: 0.79, estimated: { revenuePer1000Views: 6200, conversionRate: 0.028, expectedAov: 42000 }, startsAt: '2026-11-10', endsAt: '2026-12-25', image: '/demo/opportunities/hotels.svg', status: 'available' },
-    { id: 'offer_healthyfood_2026_10', title: 'Что лучше: протеиновые батончики', type: 'campaign', sphereId: 'sphere_healthy_food', partnerIds: ['partner_aqovia', 'partner_purenord'], commission: { type: 'percent', value: 0.1 }, audienceMatch: 0.82, estimated: { revenuePer1000Views: 2800, conversionRate: 0.072, expectedAov: 1850 }, startsAt: '2026-10-18', endsAt: '2026-11-18', image: '/demo/opportunities/food.svg', status: 'available' },
-    { id: 'offer_sportswear_2026_11', title: 'Что лучше: одежда для бега', type: 'campaign', sphereId: 'sphere_sportswear', partnerIds: ['partner_verenska', 'partner_velura'], commission: { type: 'percent', value: 0.09 }, audienceMatch: 0.77, estimated: { revenuePer1000Views: 3400, conversionRate: 0.041, expectedAov: 4700 }, startsAt: '2026-11-05', endsAt: '2026-12-05', image: '/demo/opportunities/sportswear.svg', status: 'available' },
-    { id: 'offer_appliance_2026_11', title: 'Что лучше: техника для дома', type: 'campaign', sphereId: 'sphere_home_appliance', partnerIds: ['partner_skinlab', 'partner_purenord'], commission: { type: 'percent', value: 0.07 }, audienceMatch: 0.68, estimated: { revenuePer1000Views: 5800, conversionRate: 0.022, expectedAov: 18900 }, startsAt: '2026-11-15', endsAt: '2026-12-20', image: '/demo/opportunities/appliance.svg', status: 'available' },
-    { id: 'offer_interior_2026_12', title: 'Что лучше: декор для интерьера', type: 'campaign', sphereId: 'sphere_home_interior', partnerIds: ['partner_botane', 'partner_mireya'], commission: { type: 'percent', value: 0.1 }, audienceMatch: 0.71, estimated: { revenuePer1000Views: 3900, conversionRate: 0.034, expectedAov: 6800 }, startsAt: '2026-12-01', endsAt: '2027-01-10', image: '/demo/opportunities/interior.svg', status: 'upcoming' },
-    { id: 'offer_facecare_set_2026_10', title: 'Что лучше: наборы для ухода', type: 'campaign', sphereId: 'sphere_skincare', partnerIds: ['partner_nordskin', 'partner_lumera', 'partner_aqovia'], commission: { type: 'percent', value: 0.12 }, audienceMatch: 0.9, estimated: { revenuePer1000Views: 5200, conversionRate: 0.054, expectedAov: 5900 }, startsAt: '2026-10-25', endsAt: '2026-11-25', image: '/demo/opportunities/set.svg', status: 'available' },
-    { id: 'offer_fitness_2026_11', title: 'Что лучше: фитнес-клубы', type: 'campaign', sphereId: 'sphere_fitness', partnerIds: ['partner_velura'], commission: { type: 'percent', value: 0.09 }, audienceMatch: 0.66, estimated: { revenuePer1000Views: 4100, conversionRate: 0.031, expectedAov: 12000 }, startsAt: '2026-11-12', endsAt: '2026-12-12', image: '/demo/opportunities/fitness.svg', status: 'available' },
-    { id: 'offer_perfume_niche_2026_12', title: 'Что лучше: селективная парфюмерия', type: 'campaign', sphereId: 'sphere_perfume', partnerIds: ['partner_mireya', 'partner_velura'], commission: { type: 'percent', value: 0.14 }, audienceMatch: 0.84, estimated: { revenuePer1000Views: 5600, conversionRate: 0.046, expectedAov: 7200 }, startsAt: '2026-12-05', endsAt: '2027-01-05', image: '/demo/opportunities/perfume-niche.svg', status: 'upcoming' },
-    { id: 'offer_restaurants_2026_11', title: 'Что лучше: доставка здоровой еды', type: 'campaign', sphereId: 'sphere_restaurants', partnerIds: ['partner_aqovia'], commission: { type: 'percent', value: 0.08 }, audienceMatch: 0.63, estimated: { revenuePer1000Views: 2200, conversionRate: 0.067, expectedAov: 1650 }, startsAt: '2026-11-20', endsAt: '2026-12-20', image: '/demo/opportunities/restaurants.svg', status: 'available' },
+    { id: 'offer_spf_2026_10', title: 'Что лучше: SPF 50', type: 'campaign', sphereId: 'sphere_spf', partnerIds: ['partner_nordskin', 'partner_hydrael'], commission: { type: 'percent', value: 0.12 }, audienceMatch: 0.93, estimated: { revenuePer1000Views: 4580, conversionRate: 0.061, expectedAov: 3920 }, startsAt: '2026-10-15', endsAt: '2026-11-15', image: '/demo/opportunities/spf.svg', status: 'available' },
+    { id: 'offer_serum_2026_10', title: 'Что лучше: сыворотки для лица', type: 'campaign', sphereId: 'sphere_skincare', partnerIds: ['partner_lumera', 'partner_velura', 'partner_hydrael'], commission: { type: 'percent', value: 0.11 }, audienceMatch: 0.91, estimated: { revenuePer1000Views: 4340, conversionRate: 0.058, expectedAov: 4180 }, startsAt: '2026-10-20', endsAt: '2026-11-20', image: '/demo/opportunities/serum.svg', status: 'available' },
+    { id: 'offer_perfume_2026_11', title: 'Что лучше: парфюмерия на осень', type: 'campaign', sphereId: 'sphere_perfume', partnerIds: ['partner_mireya', 'partner_lumera'], commission: { type: 'percent', value: 0.13 }, audienceMatch: 0.86, estimated: { revenuePer1000Views: 5080, conversionRate: 0.049, expectedAov: 5640 }, startsAt: '2026-11-01', endsAt: '2026-12-01', image: '/demo/opportunities/perfume.svg', status: 'available' },
+    { id: 'offer_hotels_2026_11', title: 'Что лучше: зимние курорты', type: 'campaign', sphereId: 'sphere_hotels', partnerIds: ['partner_velura', 'partner_botane'], commission: { type: 'percent', value: 0.08 }, audienceMatch: 0.79, estimated: { revenuePer1000Views: 6240, conversionRate: 0.028, expectedAov: 41800 }, startsAt: '2026-11-10', endsAt: '2026-12-25', image: '/demo/opportunities/hotels.svg', status: 'available' },
+    { id: 'offer_healthyfood_2026_10', title: 'Что лучше: протеиновые батончики', type: 'campaign', sphereId: 'sphere_healthy_food', partnerIds: ['partner_aqovia', 'partner_purenord'], commission: { type: 'percent', value: 0.1 }, audienceMatch: 0.82, estimated: { revenuePer1000Views: 2840, conversionRate: 0.072, expectedAov: 1870 }, startsAt: '2026-10-18', endsAt: '2026-11-18', image: '/demo/opportunities/food.svg', status: 'available' },
+    { id: 'offer_sportswear_2026_11', title: 'Что лучше: одежда для бега', type: 'campaign', sphereId: 'sphere_sportswear', partnerIds: ['partner_verenska', 'partner_velura'], commission: { type: 'percent', value: 0.09 }, audienceMatch: 0.77, estimated: { revenuePer1000Views: 3420, conversionRate: 0.041, expectedAov: 4680 }, startsAt: '2026-11-05', endsAt: '2026-12-05', image: '/demo/opportunities/sportswear.svg', status: 'available' },
+    { id: 'offer_appliance_2026_11', title: 'Что лучше: техника для дома', type: 'campaign', sphereId: 'sphere_home_appliance', partnerIds: ['partner_skinlab', 'partner_purenord'], commission: { type: 'percent', value: 0.07 }, audienceMatch: 0.68, estimated: { revenuePer1000Views: 5760, conversionRate: 0.022, expectedAov: 18640 }, startsAt: '2026-11-15', endsAt: '2026-12-20', image: '/demo/opportunities/appliance.svg', status: 'available' },
+    { id: 'offer_interior_2026_12', title: 'Что лучше: декор для интерьера', type: 'campaign', sphereId: 'sphere_home_interior', partnerIds: ['partner_botane', 'partner_mireya'], commission: { type: 'percent', value: 0.1 }, audienceMatch: 0.71, estimated: { revenuePer1000Views: 3880, conversionRate: 0.034, expectedAov: 6840 }, startsAt: '2026-12-01', endsAt: '2027-01-10', image: '/demo/opportunities/interior.svg', status: 'upcoming' },
+    { id: 'offer_facecare_set_2026_10', title: 'Что лучше: наборы для ухода', type: 'campaign', sphereId: 'sphere_skincare', partnerIds: ['partner_nordskin', 'partner_lumera', 'partner_aqovia'], commission: { type: 'percent', value: 0.12 }, audienceMatch: 0.9, estimated: { revenuePer1000Views: 5180, conversionRate: 0.054, expectedAov: 5920 }, startsAt: '2026-10-25', endsAt: '2026-11-25', image: '/demo/opportunities/set.svg', status: 'available' },
+    { id: 'offer_fitness_2026_11', title: 'Что лучше: фитнес-клубы', type: 'campaign', sphereId: 'sphere_fitness', partnerIds: ['partner_velura'], commission: { type: 'percent', value: 0.09 }, audienceMatch: 0.66, estimated: { revenuePer1000Views: 4120, conversionRate: 0.031, expectedAov: 11840 }, startsAt: '2026-11-12', endsAt: '2026-12-12', image: '/demo/opportunities/fitness.svg', status: 'available' },
+    { id: 'offer_perfume_niche_2026_12', title: 'Что лучше: селективная парфюмерия', type: 'campaign', sphereId: 'sphere_perfume', partnerIds: ['partner_mireya', 'partner_velura'], commission: { type: 'percent', value: 0.14 }, audienceMatch: 0.84, estimated: { revenuePer1000Views: 5640, conversionRate: 0.046, expectedAov: 7240 }, startsAt: '2026-12-05', endsAt: '2027-01-05', image: '/demo/opportunities/perfume-niche.svg', status: 'upcoming' },
+    { id: 'offer_restaurants_2026_11', title: 'Что лучше: доставка здоровой еды', type: 'campaign', sphereId: 'sphere_restaurants', partnerIds: ['partner_aqovia'], commission: { type: 'percent', value: 0.08 }, audienceMatch: 0.63, estimated: { revenuePer1000Views: 2240, conversionRate: 0.067, expectedAov: 1680 }, startsAt: '2026-11-20', endsAt: '2026-12-20', image: '/demo/opportunities/restaurants.svg', status: 'available' },
   ];
 }
 

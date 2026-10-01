@@ -206,7 +206,8 @@ if (paidCommission !== paidPayouts) err(`paid-комиссии (${paidCommission
 const sepEarned = commissions
   .filter((c) => c.month === '2026-09' && ['available', 'pending', 'estimated', 'paid'].includes(c.status))
   .reduce((a, c) => a + c.amount, 0);
-if (sepEarned !== 380000) err(`Сентябрьская начисленная комиссия (${sepEarned}) != 380000`);
+if (sepEarned !== anchor.commission)
+  err(`Сентябрьская начисленная комиссия (${sepEarned}) != ${anchor.commission}`);
 
 // 9. Order commission ~= amount * rate
 for (const o of orders) {

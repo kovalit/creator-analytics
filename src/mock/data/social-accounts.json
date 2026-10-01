@@ -7,7 +7,7 @@
     "handle": "@alina_beauty",
     "url": "https://vk.com/alina_beauty",
     "connected": true,
-    "followers": 215000
+    "followers": 214380
   },
   {
     "id": "social_telegram_1",
@@ -17,7 +17,7 @@
     "handle": "@alina_beauty",
     "url": "https://t.me/alina_beauty",
     "connected": true,
-    "followers": 127000
+    "followers": 126540
   },
   {
     "id": "social_youtube_1",
@@ -27,7 +27,7 @@
     "handle": "@alina.beauty",
     "url": "https://youtube.com/@alina.beauty",
     "connected": true,
-    "followers": 380000
+    "followers": 379210
   },
   {
     "id": "social_rutube_1",
@@ -37,6 +37,6 @@
     "handle": "alina_beauty",
     "url": "https://rutube.ru/channel/alina_beauty",
     "connected": true,
-    "followers": 120000
+    "followers": 117860
   }
 ]

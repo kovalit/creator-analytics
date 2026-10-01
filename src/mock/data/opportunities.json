@@ -14,9 +14,9 @@
     },
     "audienceMatch": 0.93,
     "estimated": {
-      "revenuePer1000Views": 4600,
+      "revenuePer1000Views": 4580,
       "conversionRate": 0.061,
-      "expectedAov": 3900
+      "expectedAov": 3920
     },
     "startsAt": "2026-10-15",
     "endsAt": "2026-11-15",
@@ -39,9 +39,9 @@
     },
     "audienceMatch": 0.91,
     "estimated": {
-      "revenuePer1000Views": 4300,
+      "revenuePer1000Views": 4340,
       "conversionRate": 0.058,
-      "expectedAov": 4200
+      "expectedAov": 4180
     },
     "startsAt": "2026-10-20",
     "endsAt": "2026-11-20",
@@ -63,9 +63,9 @@
     },
     "audienceMatch": 0.86,
     "estimated": {
-      "revenuePer1000Views": 5100,
+      "revenuePer1000Views": 5080,
       "conversionRate": 0.049,
-      "expectedAov": 5600
+      "expectedAov": 5640
     },
     "startsAt": "2026-11-01",
     "endsAt": "2026-12-01",
@@ -87,9 +87,9 @@
     },
     "audienceMatch": 0.79,
     "estimated": {
-      "revenuePer1000Views": 6200,
+      "revenuePer1000Views": 6240,
       "conversionRate": 0.028,
-      "expectedAov": 42000
+      "expectedAov": 41800
     },
     "startsAt": "2026-11-10",
     "endsAt": "2026-12-25",
@@ -111,9 +111,9 @@
     },
     "audienceMatch": 0.82,
     "estimated": {
-      "revenuePer1000Views": 2800,
+      "revenuePer1000Views": 2840,
       "conversionRate": 0.072,
-      "expectedAov": 1850
+      "expectedAov": 1870
     },
     "startsAt": "2026-10-18",
     "endsAt": "2026-11-18",
@@ -135,9 +135,9 @@
     },
     "audienceMatch": 0.77,
     "estimated": {
-      "revenuePer1000Views": 3400,
+      "revenuePer1000Views": 3420,
       "conversionRate": 0.041,
-      "expectedAov": 4700
+      "expectedAov": 4680
     },
     "startsAt": "2026-11-05",
     "endsAt": "2026-12-05",
@@ -159,9 +159,9 @@
     },
     "audienceMatch": 0.68,
     "estimated": {
-      "revenuePer1000Views": 5800,
+      "revenuePer1000Views": 5760,
       "conversionRate": 0.022,
-      "expectedAov": 18900
+      "expectedAov": 18640
     },
     "startsAt": "2026-11-15",
     "endsAt": "2026-12-20",
@@ -183,9 +183,9 @@
     },
     "audienceMatch": 0.71,
     "estimated": {
-      "revenuePer1000Views": 3900,
+      "revenuePer1000Views": 3880,
       "conversionRate": 0.034,
-      "expectedAov": 6800
+      "expectedAov": 6840
     },
     "startsAt": "2026-12-01",
     "endsAt": "2027-01-10",
@@ -208,9 +208,9 @@
     },
     "audienceMatch": 0.9,
     "estimated": {
-      "revenuePer1000Views": 5200,
+      "revenuePer1000Views": 5180,
       "conversionRate": 0.054,
-      "expectedAov": 5900
+      "expectedAov": 5920
     },
     "startsAt": "2026-10-25",
     "endsAt": "2026-11-25",
@@ -231,9 +231,9 @@
     },
     "audienceMatch": 0.66,
     "estimated": {
-      "revenuePer1000Views": 4100,
+      "revenuePer1000Views": 4120,
       "conversionRate": 0.031,
-      "expectedAov": 12000
+      "expectedAov": 11840
     },
     "startsAt": "2026-11-12",
     "endsAt": "2026-12-12",
@@ -255,9 +255,9 @@
     },
     "audienceMatch": 0.84,
     "estimated": {
-      "revenuePer1000Views": 5600,
+      "revenuePer1000Views": 5640,
       "conversionRate": 0.046,
-      "expectedAov": 7200
+      "expectedAov": 7240
     },
     "startsAt": "2026-12-05",
     "endsAt": "2027-01-05",
@@ -278,9 +278,9 @@
     },
     "audienceMatch": 0.63,
     "estimated": {
-      "revenuePer1000Views": 2200,
+      "revenuePer1000Views": 2240,
       "conversionRate": 0.067,
-      "expectedAov": 1650
+      "expectedAov": 1680
     },
     "startsAt": "2026-11-20",
     "endsAt": "2026-12-20",

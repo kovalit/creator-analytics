@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import { Sidebar } from './Sidebar';
+import { BrandLogo } from '@/components/ui/BrandLogo';
 import { IconClose, IconMenu } from '@/components/ui/icons';
 import { cn } from '@/lib/cn';
 
@@ -24,17 +25,7 @@ export function AppShell() {
 
       {/* Mobile top bar */}
       <div className="sticky top-0 z-20 flex h-14 items-center justify-between border-b border-border bg-surface px-4 lg:hidden">
-        <div className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-white">
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none">
-              <path d="M4 7l2.6 10L9.5 9.5 12.5 17 15 7" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" strokeLinejoin="round" />
-              <circle cx="19" cy="7" r="1.5" fill="currentColor" />
-            </svg>
-          </div>
-          <span className="text-[14px] font-bold text-text-primary">
-            WhatsBetter<span className="text-primary">.me</span> Creator
-          </span>
-        </div>
+        <BrandLogo height={22} />
         <button
           onClick={() => setMobileOpen(true)}
           aria-label="Открыть меню"

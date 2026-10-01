@@ -4,13 +4,13 @@
     "month": "2026-04",
     "creatorId": "creator_alina",
     "audience": {
-      "knownUsers": 41200,
-      "active30d": 24800,
-      "new30d": 9100,
-      "returning30d": 15700,
-      "buyers30d": 2050,
-      "rated30d": 7100,
-      "subscribedToSphere30d": 10200
+      "knownUsers": 41240,
+      "active30d": 24830,
+      "new30d": 9140,
+      "returning30d": 15690,
+      "buyers30d": 2048,
+      "rated30d": 7130,
+      "subscribedToSphere30d": 10210
     },
     "demographics": {
       "gender": [
@@ -55,13 +55,13 @@
     "month": "2026-05",
     "creatorId": "creator_alina",
     "audience": {
-      "knownUsers": 46800,
-      "active30d": 28200,
-      "new30d": 9900,
-      "returning30d": 18300,
-      "buyers30d": 2420,
-      "rated30d": 8300,
-      "subscribedToSphere30d": 11600
+      "knownUsers": 46870,
+      "active30d": 28210,
+      "new30d": 9880,
+      "returning30d": 18340,
+      "buyers30d": 2416,
+      "rated30d": 8290,
+      "subscribedToSphere30d": 11630
     },
     "demographics": {
       "gender": [
@@ -106,13 +106,13 @@
     "month": "2026-06",
     "creatorId": "creator_alina",
     "audience": {
-      "knownUsers": 51600,
-      "active30d": 31500,
-      "new30d": 10400,
-      "returning30d": 21100,
-      "buyers30d": 2760,
-      "rated30d": 9300,
-      "subscribedToSphere30d": 12900
+      "knownUsers": 51630,
+      "active30d": 31460,
+      "new30d": 10430,
+      "returning30d": 21080,
+      "buyers30d": 2763,
+      "rated30d": 9340,
+      "subscribedToSphere30d": 12880
     },
     "demographics": {
       "gender": [
@@ -157,13 +157,13 @@
     "month": "2026-07",
     "creatorId": "creator_alina",
     "audience": {
-      "knownUsers": 56400,
-      "active30d": 34800,
-      "new30d": 11200,
-      "returning30d": 23600,
-      "buyers30d": 3080,
-      "rated30d": 10400,
-      "subscribedToSphere30d": 14100
+      "knownUsers": 56420,
+      "active30d": 34770,
+      "new30d": 11180,
+      "returning30d": 23620,
+      "buyers30d": 3077,
+      "rated30d": 10420,
+      "subscribedToSphere30d": 14130
     },
     "demographics": {
       "gender": [
@@ -208,13 +208,13 @@
     "month": "2026-08",
     "creatorId": "creator_alina",
     "audience": {
-      "knownUsers": 62100,
-      "active30d": 38600,
-      "new30d": 12100,
-      "returning30d": 26500,
-      "buyers30d": 3510,
-      "rated30d": 11700,
-      "subscribedToSphere30d": 15500
+      "knownUsers": 62080,
+      "active30d": 38640,
+      "new30d": 12090,
+      "returning30d": 26510,
+      "buyers30d": 3514,
+      "rated30d": 11690,
+      "subscribedToSphere30d": 15470
     },
     "demographics": {
       "gender": [
@@ -259,13 +259,13 @@
     "month": "2026-09",
     "creatorId": "creator_alina",
     "audience": {
-      "knownUsers": 68400,
-      "active30d": 42100,
-      "new30d": 12700,
-      "returning30d": 29400,
-      "buyers30d": 3890,
-      "rated30d": 12800,
-      "subscribedToSphere30d": 16700
+      "knownUsers": 68430,
+      "active30d": 42080,
+      "new30d": 12730,
+      "returning30d": 29380,
+      "buyers30d": 3892,
+      "rated30d": 12810,
+      "subscribedToSphere30d": 16740
     },
     "demographics": {
       "gender": [
