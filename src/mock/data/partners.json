@@ -1,0 +1,82 @@
+[
+  {
+    "id": "partner_nordskin",
+    "label": "NordSkin",
+    "companyName": "ООО «НордСкин»",
+    "logo": "/demo/brands/nordskin.svg",
+    "website": "https://nordskin.demo",
+    "ecosystemMember": true
+  },
+  {
+    "id": "partner_lumera",
+    "label": "Lumera",
+    "companyName": "ООО «Люмера»",
+    "logo": "/demo/brands/lumera.svg",
+    "website": "https://lumera.demo",
+    "ecosystemMember": true
+  },
+  {
+    "id": "partner_aqovia",
+    "label": "Aqovia",
+    "companyName": "ООО «Аковиа»",
+    "logo": "/demo/brands/aqovia.svg",
+    "website": "https://aqovia.demo",
+    "ecosystemMember": false
+  },
+  {
+    "id": "partner_botane",
+    "label": "Botané",
+    "companyName": "ООО «Ботанэ»",
+    "logo": "/demo/brands/botane.svg",
+    "website": "https://botane.demo",
+    "ecosystemMember": true
+  },
+  {
+    "id": "partner_skinlab",
+    "label": "SkinLab",
+    "companyName": "ООО «СкинЛаб»",
+    "logo": "/demo/brands/skinlab.svg",
+    "website": "https://skinlab.demo",
+    "ecosystemMember": false
+  },
+  {
+    "id": "partner_velura",
+    "label": "Velura",
+    "companyName": "ООО «Велюра»",
+    "logo": "/demo/brands/velura.svg",
+    "website": "https://velura.demo",
+    "ecosystemMember": true
+  },
+  {
+    "id": "partner_purenord",
+    "label": "PureNord",
+    "companyName": "ООО «ПьюрНорд»",
+    "logo": "/demo/brands/purenord.svg",
+    "website": "https://purenord.demo",
+    "ecosystemMember": false
+  },
+  {
+    "id": "partner_hydrael",
+    "label": "Hydrael",
+    "companyName": "ООО «Гидраэль»",
+    "logo": "/demo/brands/hydrael.svg",
+    "website": "https://hydrael.demo",
+    "ecosystemMember": true
+  },
+  {
+    "id": "partner_mireya",
+    "label": "Mireya",
+    "companyName": "ООО «Мирейя»",
+    "logo": "/demo/brands/mireya.svg",
+    "website": "https://mireya.demo",
+    "ecosystemMember": false
+  },
+  {
+    "id": "partner_verenska",
+    "label": "Verenska",
+    "companyName": "ООО «Веренска»",
+    "logo": "/demo/brands/verenska.svg",
+    "website": "https://verenska.demo",
+    "ecosystemMember": true
+  }
+]

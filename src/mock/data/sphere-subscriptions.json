@@ -1,0 +1,62 @@
+[
+  {
+    "sphereId": "sphere_skincare",
+    "subscribersFromAudience": 24600,
+    "share": 0.584,
+    "growth30d": 0.082
+  },
+  {
+    "sphereId": "sphere_beauty",
+    "subscribersFromAudience": 21300,
+    "share": 0.506,
+    "growth30d": 0.061
+  },
+  {
+    "sphereId": "sphere_face_cream",
+    "subscribersFromAudience": 18900,
+    "share": 0.449,
+    "growth30d": 0.097
+  },
+  {
+    "sphereId": "sphere_travel",
+    "subscribersFromAudience": 12400,
+    "share": 0.294,
+    "growth30d": 0.054
+  },
+  {
+    "sphereId": "sphere_healthy_food",
+    "subscribersFromAudience": 10800,
+    "share": 0.256,
+    "growth30d": 0.069
+  },
+  {
+    "sphereId": "sphere_perfume",
+    "subscribersFromAudience": 9600,
+    "share": 0.228,
+    "growth30d": 0.043
+  },
+  {
+    "sphereId": "sphere_fashion",
+    "subscribersFromAudience": 9100,
+    "share": 0.216,
+    "growth30d": 0.038
+  },
+  {
+    "sphereId": "sphere_spf",
+    "subscribersFromAudience": 7700,
+    "share": 0.183,
+    "growth30d": 0.121
+  },
+  {
+    "sphereId": "sphere_hotels",
+    "subscribersFromAudience": 6200,
+    "share": 0.147,
+    "growth30d": 0.047
+  },
+  {
+    "sphereId": "sphere_fitness",
+    "subscribersFromAudience": 5400,
+    "share": 0.128,
+    "growth30d": 0.029
+  }
+]

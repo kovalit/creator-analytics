@@ -1,0 +1,26 @@
+[
+  {
+    "id": "marketplace_whatsbetter",
+    "name": "whatsbetter",
+    "label": "Whatsbetter",
+    "channelType": "whatsbetter"
+  },
+  {
+    "id": "marketplace_ozon",
+    "name": "ozon",
+    "label": "Ozon",
+    "channelType": "marketplace"
+  },
+  {
+    "id": "marketplace_wb",
+    "name": "wildberries",
+    "label": "Wildberries",
+    "channelType": "marketplace"
+  },
+  {
+    "id": "marketplace_yandex",
+    "name": "yandex_market",
+    "label": "Яндекс Маркет",
+    "channelType": "marketplace"
+  }
+]

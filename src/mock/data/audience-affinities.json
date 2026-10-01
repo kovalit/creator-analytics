@@ -1,0 +1,368 @@
+{
+  "sphereAffinities": [
+    {
+      "sphereId": "sphere_skincare",
+      "audienceShare": 0.82,
+      "affinityIndex": 168,
+      "trend": 0.12
+    },
+    {
+      "sphereId": "sphere_beauty",
+      "audienceShare": 0.79,
+      "affinityIndex": 161,
+      "trend": 0.08
+    },
+    {
+      "sphereId": "sphere_face_cream",
+      "audienceShare": 0.74,
+      "affinityIndex": 155,
+      "trend": 0.14
+    },
+    {
+      "sphereId": "sphere_travel",
+      "audienceShare": 0.57,
+      "affinityIndex": 131,
+      "trend": 0.09
+    },
+    {
+      "sphereId": "sphere_healthy_food",
+      "audienceShare": 0.51,
+      "affinityIndex": 124,
+      "trend": 0.11
+    },
+    {
+      "sphereId": "sphere_fashion",
+      "audienceShare": 0.47,
+      "affinityIndex": 118,
+      "trend": 0.05
+    },
+    {
+      "sphereId": "sphere_perfume",
+      "audienceShare": 0.44,
+      "affinityIndex": 139,
+      "trend": 0.07
+    },
+    {
+      "sphereId": "sphere_spf",
+      "audienceShare": 0.39,
+      "affinityIndex": 142,
+      "trend": 0.18
+    },
+    {
+      "sphereId": "sphere_home_interior",
+      "audienceShare": 0.34,
+      "affinityIndex": 104,
+      "trend": 0.06
+    },
+    {
+      "sphereId": "sphere_hotels",
+      "audienceShare": 0.31,
+      "affinityIndex": 112,
+      "trend": 0.1
+    },
+    {
+      "sphereId": "sphere_fitness",
+      "audienceShare": 0.29,
+      "affinityIndex": 108,
+      "trend": 0.04
+    },
+    {
+      "sphereId": "sphere_home_appliance",
+      "audienceShare": 0.26,
+      "affinityIndex": 96,
+      "trend": -0.03
+    },
+    {
+      "sphereId": "sphere_restaurants",
+      "audienceShare": 0.23,
+      "affinityIndex": 91,
+      "trend": 0.02
+    },
+    {
+      "sphereId": "sphere_home",
+      "audienceShare": 0.22,
+      "affinityIndex": 89,
+      "trend": 0.01
+    }
+  ],
+  "criterionAffinities": [
+    {
+      "criterionId": "criterion_hydration",
+      "sphereId": "sphere_face_cream",
+      "importance": 92,
+      "audienceAvgScore": 0.81,
+      "platformAvgImportance": 74,
+      "delta": 18
+    },
+    {
+      "criterionId": "criterion_composition",
+      "sphereId": "sphere_face_cream",
+      "importance": 87,
+      "audienceAvgScore": 0.78,
+      "platformAvgImportance": 72,
+      "delta": 15
+    },
+    {
+      "criterionId": "criterion_sensitive_skin",
+      "sphereId": "sphere_face_cream",
+      "importance": 83,
+      "audienceAvgScore": 0.74,
+      "platformAvgImportance": 66,
+      "delta": 17
+    },
+    {
+      "criterionId": "criterion_texture",
+      "sphereId": "sphere_face_cream",
+      "importance": 71,
+      "audienceAvgScore": 0.76,
+      "platformAvgImportance": 63,
+      "delta": 8
+    },
+    {
+      "criterionId": "criterion_absorption",
+      "sphereId": "sphere_face_cream",
+      "importance": 69,
+      "audienceAvgScore": 0.75,
+      "platformAvgImportance": 61,
+      "delta": 8
+    },
+    {
+      "criterionId": "criterion_comfort",
+      "sphereId": "sphere_face_cream",
+      "importance": 61,
+      "audienceAvgScore": 0.73,
+      "platformAvgImportance": 57,
+      "delta": 4
+    },
+    {
+      "criterionId": "criterion_scent",
+      "sphereId": "sphere_face_cream",
+      "importance": 48,
+      "audienceAvgScore": 0.64,
+      "platformAvgImportance": 52,
+      "delta": -4
+    },
+    {
+      "criterionId": "criterion_economy",
+      "sphereId": "sphere_face_cream",
+      "importance": 54,
+      "audienceAvgScore": 0.66,
+      "platformAvgImportance": 59,
+      "delta": -5
+    },
+    {
+      "criterionId": "criterion_packaging",
+      "sphereId": "sphere_face_cream",
+      "importance": 39,
+      "audienceAvgScore": 0.61,
+      "platformAvgImportance": 47,
+      "delta": -8
+    },
+    {
+      "criterionId": "criterion_price_value",
+      "sphereId": "sphere_face_cream",
+      "importance": 76,
+      "audienceAvgScore": 0.69,
+      "platformAvgImportance": 70,
+      "delta": 6
+    },
+    {
+      "criterionId": "criterion_no_stickiness",
+      "sphereId": "sphere_face_cream",
+      "importance": 66,
+      "audienceAvgScore": 0.72,
+      "platformAvgImportance": 58,
+      "delta": 8
+    },
+    {
+      "criterionId": "criterion_longevity",
+      "sphereId": "sphere_face_cream",
+      "importance": 64,
+      "audienceAvgScore": 0.7,
+      "platformAvgImportance": 60,
+      "delta": 4
+    }
+  ],
+  "entityAffinities": [
+    {
+      "entityId": "entity_cream_01",
+      "sphereId": "sphere_face_cream",
+      "views": 10214,
+      "saves": 1475,
+      "ratings": 940,
+      "purchases": 199,
+      "matchScore": 94
+    },
+    {
+      "entityId": "entity_cream_02",
+      "sphereId": "sphere_face_cream",
+      "views": 9337,
+      "saves": 1454,
+      "ratings": 812,
+      "purchases": 183,
+      "matchScore": 88
+    },
+    {
+      "entityId": "entity_cream_03",
+      "sphereId": "sphere_face_cream",
+      "views": 8681,
+      "saves": 1113,
+      "ratings": 760,
+      "purchases": 198,
+      "matchScore": 91
+    },
+    {
+      "entityId": "entity_cream_04",
+      "sphereId": "sphere_face_cream",
+      "views": 7349,
+      "saves": 1144,
+      "ratings": 897,
+      "purchases": 220,
+      "matchScore": 83
+    },
+    {
+      "entityId": "entity_cream_05",
+      "sphereId": "sphere_face_cream",
+      "views": 6666,
+      "saves": 1664,
+      "ratings": 1005,
+      "purchases": 211,
+      "matchScore": 86
+    },
+    {
+      "entityId": "entity_cream_06",
+      "sphereId": "sphere_face_cream",
+      "views": 8755,
+      "saves": 1614,
+      "ratings": 655,
+      "purchases": 200,
+      "matchScore": 79
+    },
+    {
+      "entityId": "entity_cream_07",
+      "sphereId": "sphere_face_cream",
+      "views": 7885,
+      "saves": 1169,
+      "ratings": 806,
+      "purchases": 169,
+      "matchScore": 90
+    },
+    {
+      "entityId": "entity_cream_08",
+      "sphereId": "sphere_face_cream",
+      "views": 8057,
+      "saves": 1177,
+      "ratings": 868,
+      "purchases": 184,
+      "matchScore": 82
+    },
+    {
+      "entityId": "entity_cream_09",
+      "sphereId": "sphere_face_cream",
+      "views": 7040,
+      "saves": 1307,
+      "ratings": 618,
+      "purchases": 139,
+      "matchScore": 76
+    },
+    {
+      "entityId": "entity_cream_10",
+      "sphereId": "sphere_face_cream",
+      "views": 5531,
+      "saves": 1198,
+      "ratings": 832,
+      "purchases": 208,
+      "matchScore": 85
+    },
+    {
+      "entityId": "entity_cream_11",
+      "sphereId": "sphere_face_cream",
+      "views": 6147,
+      "saves": 1059,
+      "ratings": 759,
+      "purchases": 113,
+      "matchScore": 81
+    },
+    {
+      "entityId": "entity_cream_12",
+      "sphereId": "sphere_face_cream",
+      "views": 5636,
+      "saves": 1233,
+      "ratings": 632,
+      "purchases": 195,
+      "matchScore": 72
+    },
+    {
+      "entityId": "entity_cream_13",
+      "sphereId": "sphere_face_cream",
+      "views": 5157,
+      "saves": 1005,
+      "ratings": 661,
+      "purchases": 103,
+      "matchScore": 88
+    },
+    {
+      "entityId": "entity_cream_14",
+      "sphereId": "sphere_face_cream",
+      "views": 5122,
+      "saves": 1078,
+      "ratings": 691,
+      "purchases": 147,
+      "matchScore": 74
+    },
+    {
+      "entityId": "entity_cream_15",
+      "sphereId": "sphere_face_cream",
+      "views": 4654,
+      "saves": 930,
+      "ratings": 533,
+      "purchases": 168,
+      "matchScore": 80
+    },
+    {
+      "entityId": "entity_cream_16",
+      "sphereId": "sphere_face_cream",
+      "views": 4481,
+      "saves": 768,
+      "ratings": 602,
+      "purchases": 116,
+      "matchScore": 69
+    },
+    {
+      "entityId": "entity_cream_17",
+      "sphereId": "sphere_face_cream",
+      "views": 4437,
+      "saves": 734,
+      "ratings": 402,
+      "purchases": 90,
+      "matchScore": 77
+    },
+    {
+      "entityId": "entity_cream_18",
+      "sphereId": "sphere_face_cream",
+      "views": 3944,
+      "saves": 776,
+      "ratings": 465,
+      "purchases": 102,
+      "matchScore": 71
+    },
+    {
+      "entityId": "entity_cream_19",
+      "sphereId": "sphere_face_cream",
+      "views": 3185,
+      "saves": 605,
+      "ratings": 428,
+      "purchases": 84,
+      "matchScore": 84
+    },
+    {
+      "entityId": "entity_cream_20",
+      "sphereId": "sphere_face_cream",
+      "views": 3109,
+      "saves": 607,
+      "ratings": 444,
+      "purchases": 70,
+      "matchScore": 66
+    }
+  ]
+}

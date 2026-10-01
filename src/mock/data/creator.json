@@ -1,0 +1,16 @@
+{
+  "id": "creator_alina",
+  "userId": "user_4102",
+  "displayName": "Алина Морозова",
+  "username": "@alina.beauty",
+  "avatar": "/demo/avatars/alina.svg",
+  "bio": "Бьюти и лайфстайл. Честные сравнения по шоу «Что лучше».",
+  "categorySphereIds": [
+    "sphere_beauty",
+    "sphere_skincare",
+    "sphere_fashion"
+  ],
+  "status": "active",
+  "verified": true,
+  "joinedAt": "2024-11-12"
+}

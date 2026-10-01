@@ -1,0 +1,1 @@
+{"root":["./vite.config.ts","./scripts/generate-demo-data.ts","./scripts/validate-demo-data.ts","./scripts/lib/reference.ts","./scripts/lib/rng.ts"],"version":"5.9.3"}

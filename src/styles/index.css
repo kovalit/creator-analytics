@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Background */
+  --bg: #f5f7fa;
+  --surface: #ffffff;
+  --surface-soft: #f9fafc;
+
+  /* Text */
+  --text-primary: #171a22;
+  --text-secondary: #69707d;
+  --text-tertiary: #9aa1ac;
+
+  /* Borders */
+  --border: #e8ebf0;
+  --border-strong: #dde1e8;
+
+  /* Primary — синий акцент */
+  --primary: #356df3;
+  --primary-strong: #2456d8;
+  --primary-soft: #eef4ff;
+
+  /* Secondary — фиолетовый, вспомогательный */
+  --secondary: #7357e8;
+  --secondary-soft: #f2eeff;
+
+  /* Status */
+  --success: #1f9d70;
+  --success-soft: #ecf8f3;
+  --warning: #d79527;
+  --warning-soft: #fff7e8;
+  --danger: #d75b66;
+  --danger-soft: #fff0f2;
+
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'cv11', 'ss01';
+  font-variant-numeric: tabular-nums;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Нумерация в таблицах/KPI — моноширинные табличные цифры */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d7dce4;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c3cad5;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Focus visibility (a11y) */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+@layer components {
+  .card {
+    @apply rounded-card border border-border bg-surface shadow-card;
+  }
+  .card-lg {
+    @apply rounded-card-lg border border-border bg-surface shadow-card;
+  }
+  .pill {
+    @apply inline-flex items-center gap-1.5 rounded-pill px-3 py-1.5 text-sm font-medium;
+  }
+  .skeleton {
+    @apply relative overflow-hidden rounded-xl bg-[#eef0f4];
+  }
+  .skeleton::after {
+    content: '';
+    @apply absolute inset-0;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.65),
+      transparent
+    );
+    transform: translateX(-100%);
+    animation: shimmer 1.4s infinite;
+  }
+}

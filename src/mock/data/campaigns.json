@@ -1,0 +1,171 @@
+[
+  {
+    "id": "campaign_appliances_2026_04",
+    "showId": "show_what_is_better",
+    "creatorId": "creator_alina",
+    "sphereId": "sphere_home_appliance",
+    "title": "Что лучше: техника для кухни",
+    "status": "completed",
+    "month": "2026-04",
+    "startDate": "2026-04-01",
+    "endDate": "2026-04-30",
+    "heroImage": "/demo/campaigns/appliances.svg",
+    "partnerIds": [
+      "partner_skinlab",
+      "partner_purenord"
+    ],
+    "entityIds": [],
+    "defaultCommissionRate": 0.09,
+    "attributionWindowDays": 30,
+    "trackingCode": "alina-appliances-apr26"
+  },
+  {
+    "id": "campaign_perfume_2026_05",
+    "showId": "show_what_is_better",
+    "creatorId": "creator_alina",
+    "sphereId": "sphere_perfume",
+    "title": "Что лучше: нишевая парфюмерия",
+    "status": "completed",
+    "month": "2026-05",
+    "startDate": "2026-05-01",
+    "endDate": "2026-05-31",
+    "heroImage": "/demo/campaigns/perfume.svg",
+    "partnerIds": [
+      "partner_lumera",
+      "partner_mireya"
+    ],
+    "entityIds": [],
+    "defaultCommissionRate": 0.12,
+    "attributionWindowDays": 30,
+    "trackingCode": "alina-perfume-may26"
+  },
+  {
+    "id": "campaign_hotels_2026_06",
+    "showId": "show_what_is_better",
+    "creatorId": "creator_alina",
+    "sphereId": "sphere_hotels",
+    "title": "Что лучше: отели у моря",
+    "status": "completed",
+    "month": "2026-06",
+    "startDate": "2026-06-01",
+    "endDate": "2026-06-30",
+    "heroImage": "/demo/campaigns/hotels.svg",
+    "partnerIds": [
+      "partner_velura",
+      "partner_botane"
+    ],
+    "entityIds": [],
+    "defaultCommissionRate": 0.08,
+    "attributionWindowDays": 45,
+    "trackingCode": "alina-hotels-jun26"
+  },
+  {
+    "id": "campaign_healthyfood_2026_07",
+    "showId": "show_what_is_better",
+    "creatorId": "creator_alina",
+    "sphereId": "sphere_healthy_food",
+    "title": "Что лучше: здоровые перекусы",
+    "status": "completed",
+    "month": "2026-07",
+    "startDate": "2026-07-01",
+    "endDate": "2026-07-31",
+    "heroImage": "/demo/campaigns/healthyfood.svg",
+    "partnerIds": [
+      "partner_aqovia",
+      "partner_hydrael"
+    ],
+    "entityIds": [],
+    "defaultCommissionRate": 0.11,
+    "attributionWindowDays": 30,
+    "trackingCode": "alina-food-jul26"
+  },
+  {
+    "id": "campaign_sportswear_2026_08",
+    "showId": "show_what_is_better",
+    "creatorId": "creator_alina",
+    "sphereId": "sphere_sportswear",
+    "title": "Что лучше: спортивная одежда",
+    "status": "completed",
+    "month": "2026-08",
+    "startDate": "2026-08-01",
+    "endDate": "2026-08-31",
+    "heroImage": "/demo/campaigns/sportswear.svg",
+    "partnerIds": [
+      "partner_verenska",
+      "partner_velura"
+    ],
+    "entityIds": [],
+    "defaultCommissionRate": 0.1,
+    "attributionWindowDays": 30,
+    "trackingCode": "alina-sport-aug26"
+  },
+  {
+    "id": "campaign_spf_2026_08",
+    "showId": "show_what_is_better",
+    "creatorId": "creator_alina",
+    "sphereId": "sphere_spf",
+    "title": "Что лучше: SPF-защита 50",
+    "status": "completed",
+    "month": "2026-08",
+    "startDate": "2026-08-10",
+    "endDate": "2026-08-31",
+    "heroImage": "/demo/campaigns/spf.svg",
+    "partnerIds": [
+      "partner_nordskin",
+      "partner_hydrael"
+    ],
+    "entityIds": [],
+    "defaultCommissionRate": 0.13,
+    "attributionWindowDays": 30,
+    "trackingCode": "alina-spf-aug26"
+  },
+  {
+    "id": "campaign_face_cream_2026_09",
+    "showId": "show_what_is_better",
+    "creatorId": "creator_alina",
+    "sphereId": "sphere_face_cream",
+    "title": "Что лучше: кремы для лица",
+    "status": "active",
+    "month": "2026-09",
+    "startDate": "2026-09-01",
+    "endDate": "2026-09-30",
+    "heroImage": "/demo/campaigns/face-cream.svg",
+    "partnerIds": [
+      "partner_nordskin",
+      "partner_lumera",
+      "partner_aqovia",
+      "partner_botane",
+      "partner_skinlab",
+      "partner_velura",
+      "partner_purenord",
+      "partner_hydrael",
+      "partner_mireya",
+      "partner_verenska"
+    ],
+    "entityIds": [
+      "entity_cream_01",
+      "entity_cream_02",
+      "entity_cream_03",
+      "entity_cream_04",
+      "entity_cream_05",
+      "entity_cream_06",
+      "entity_cream_07",
+      "entity_cream_08",
+      "entity_cream_09",
+      "entity_cream_10",
+      "entity_cream_11",
+      "entity_cream_12",
+      "entity_cream_13",
+      "entity_cream_14",
+      "entity_cream_15",
+      "entity_cream_16",
+      "entity_cream_17",
+      "entity_cream_18",
+      "entity_cream_19",
+      "entity_cream_20"
+    ],
+    "defaultCommissionRate": 0.1,
+    "attributionWindowDays": 30,
+    "trackingCode": "alina-facecream-sep26"
+  }
+]

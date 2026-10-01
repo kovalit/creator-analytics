@@ -1,0 +1,442 @@
+[
+  {
+    "id": "entity_cream_01",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "aqua_balance_cream",
+    "label": "Aqua Balance Cream",
+    "brand": "NordSkin",
+    "partnerId": "partner_nordskin",
+    "image": "/demo/products/cream-01.svg",
+    "properties": {
+      "volumeMl": 30,
+      "skinTypes": [
+        "normal",
+        "dry"
+      ]
+    },
+    "rating": {
+      "score": 0.91,
+      "place": 1,
+      "countScores": 5821
+    }
+  },
+  {
+    "id": "entity_cream_02",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "deep_hydra_night",
+    "label": "Deep Hydra Night",
+    "brand": "NordSkin",
+    "partnerId": "partner_nordskin",
+    "image": "/demo/products/cream-02.svg",
+    "properties": {
+      "volumeMl": 50,
+      "skinTypes": [
+        "normal",
+        "dry",
+        "sensitive"
+      ]
+    },
+    "rating": {
+      "score": 0.88,
+      "place": 2,
+      "countScores": 5120
+    }
+  },
+  {
+    "id": "entity_cream_03",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "lumera_glow_day",
+    "label": "Lumera Glow Day",
+    "brand": "Lumera",
+    "partnerId": "partner_lumera",
+    "image": "/demo/products/cream-03.svg",
+    "properties": {
+      "volumeMl": 50,
+      "skinTypes": [
+        "oily",
+        "combination"
+      ]
+    },
+    "rating": {
+      "score": 0.86,
+      "place": 3,
+      "countScores": 4870
+    }
+  },
+  {
+    "id": "entity_cream_04",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "lumera_silk_repair",
+    "label": "Lumera Silk Repair",
+    "brand": "Lumera",
+    "partnerId": "partner_lumera",
+    "image": "/demo/products/cream-04.svg",
+    "properties": {
+      "volumeMl": 75,
+      "skinTypes": [
+        "all"
+      ]
+    },
+    "rating": {
+      "score": 0.84,
+      "place": 4,
+      "countScores": 4410
+    }
+  },
+  {
+    "id": "entity_cream_05",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "aqovia_pure_moisture",
+    "label": "Aqovia Pure Moisture",
+    "brand": "Aqovia",
+    "partnerId": "partner_aqovia",
+    "image": "/demo/products/cream-05.svg",
+    "properties": {
+      "volumeMl": 30,
+      "skinTypes": [
+        "dry",
+        "sensitive"
+      ]
+    },
+    "rating": {
+      "score": 0.82,
+      "place": 5,
+      "countScores": 3980
+    }
+  },
+  {
+    "id": "entity_cream_06",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "aqovia_calm_barrier",
+    "label": "Aqovia Calm Barrier",
+    "brand": "Aqovia",
+    "partnerId": "partner_aqovia",
+    "image": "/demo/products/cream-06.svg",
+    "properties": {
+      "volumeMl": 50,
+      "skinTypes": [
+        "normal",
+        "dry"
+      ]
+    },
+    "rating": {
+      "score": 0.8,
+      "place": 6,
+      "countScores": 3620
+    }
+  },
+  {
+    "id": "entity_cream_07",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "botane_herbal_cream",
+    "label": "Botané Herbal Cream",
+    "brand": "Botané",
+    "partnerId": "partner_botane",
+    "image": "/demo/products/cream-07.svg",
+    "properties": {
+      "volumeMl": 50,
+      "skinTypes": [
+        "normal",
+        "dry",
+        "sensitive"
+      ]
+    },
+    "rating": {
+      "score": 0.78,
+      "place": 7,
+      "countScores": 3310
+    }
+  },
+  {
+    "id": "entity_cream_08",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "botane_sensitive_care",
+    "label": "Botané Sensitive Care",
+    "brand": "Botané",
+    "partnerId": "partner_botane",
+    "image": "/demo/products/cream-08.svg",
+    "properties": {
+      "volumeMl": 75,
+      "skinTypes": [
+        "oily",
+        "combination"
+      ]
+    },
+    "rating": {
+      "score": 0.77,
+      "place": 8,
+      "countScores": 3020
+    }
+  },
+  {
+    "id": "entity_cream_09",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "skinlab_retinol_soft",
+    "label": "SkinLab Retinol Soft",
+    "brand": "SkinLab",
+    "partnerId": "partner_skinlab",
+    "image": "/demo/products/cream-09.svg",
+    "properties": {
+      "volumeMl": 30,
+      "skinTypes": [
+        "all"
+      ]
+    },
+    "rating": {
+      "score": 0.75,
+      "place": 9,
+      "countScores": 2780
+    }
+  },
+  {
+    "id": "entity_cream_10",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "skinlab_daily_shield",
+    "label": "SkinLab Daily Shield",
+    "brand": "SkinLab",
+    "partnerId": "partner_skinlab",
+    "image": "/demo/products/cream-10.svg",
+    "properties": {
+      "volumeMl": 50,
+      "skinTypes": [
+        "dry",
+        "sensitive"
+      ]
+    },
+    "rating": {
+      "score": 0.73,
+      "place": 10,
+      "countScores": 2510
+    }
+  },
+  {
+    "id": "entity_cream_11",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "velura_velvet_touch",
+    "label": "Velura Velvet Touch",
+    "brand": "Velura",
+    "partnerId": "partner_velura",
+    "image": "/demo/products/cream-11.svg",
+    "properties": {
+      "volumeMl": 50,
+      "skinTypes": [
+        "normal",
+        "dry"
+      ]
+    },
+    "rating": {
+      "score": 0.71,
+      "place": 11,
+      "countScores": 2290
+    }
+  },
+  {
+    "id": "entity_cream_12",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "velura_aqua_gel",
+    "label": "Velura Aqua Gel",
+    "brand": "Velura",
+    "partnerId": "partner_velura",
+    "image": "/demo/products/cream-12.svg",
+    "properties": {
+      "volumeMl": 75,
+      "skinTypes": [
+        "normal",
+        "dry",
+        "sensitive"
+      ]
+    },
+    "rating": {
+      "score": 0.69,
+      "place": 12,
+      "countScores": 2080
+    }
+  },
+  {
+    "id": "entity_cream_13",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "purenord_arctic_hydra",
+    "label": "PureNord Arctic Hydra",
+    "brand": "PureNord",
+    "partnerId": "partner_purenord",
+    "image": "/demo/products/cream-13.svg",
+    "properties": {
+      "volumeMl": 30,
+      "skinTypes": [
+        "oily",
+        "combination"
+      ]
+    },
+    "rating": {
+      "score": 0.68,
+      "place": 13,
+      "countScores": 1910
+    }
+  },
+  {
+    "id": "entity_cream_14",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "purenord_light_fluid",
+    "label": "PureNord Light Fluid",
+    "brand": "PureNord",
+    "partnerId": "partner_purenord",
+    "image": "/demo/products/cream-14.svg",
+    "properties": {
+      "volumeMl": 50,
+      "skinTypes": [
+        "all"
+      ]
+    },
+    "rating": {
+      "score": 0.66,
+      "place": 14,
+      "countScores": 1740
+    }
+  },
+  {
+    "id": "entity_cream_15",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "hydrael_intense_h2o",
+    "label": "Hydrael Intense H2O",
+    "brand": "Hydrael",
+    "partnerId": "partner_hydrael",
+    "image": "/demo/products/cream-15.svg",
+    "properties": {
+      "volumeMl": 50,
+      "skinTypes": [
+        "dry",
+        "sensitive"
+      ]
+    },
+    "rating": {
+      "score": 0.64,
+      "place": 15,
+      "countScores": 1580
+    }
+  },
+  {
+    "id": "entity_cream_16",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "hydrael_ceramide_rich",
+    "label": "Hydrael Ceramide Rich",
+    "brand": "Hydrael",
+    "partnerId": "partner_hydrael",
+    "image": "/demo/products/cream-16.svg",
+    "properties": {
+      "volumeMl": 75,
+      "skinTypes": [
+        "normal",
+        "dry"
+      ]
+    },
+    "rating": {
+      "score": 0.62,
+      "place": 16,
+      "countScores": 1420
+    }
+  },
+  {
+    "id": "entity_cream_17",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "mireya_rose_nutrition",
+    "label": "Mireya Rose Nutrition",
+    "brand": "Mireya",
+    "partnerId": "partner_mireya",
+    "image": "/demo/products/cream-17.svg",
+    "properties": {
+      "volumeMl": 30,
+      "skinTypes": [
+        "normal",
+        "dry",
+        "sensitive"
+      ]
+    },
+    "rating": {
+      "score": 0.61,
+      "place": 17,
+      "countScores": 1290
+    }
+  },
+  {
+    "id": "entity_cream_18",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "mireya_matte_balance",
+    "label": "Mireya Matte Balance",
+    "brand": "Mireya",
+    "partnerId": "partner_mireya",
+    "image": "/demo/products/cream-18.svg",
+    "properties": {
+      "volumeMl": 50,
+      "skinTypes": [
+        "oily",
+        "combination"
+      ]
+    },
+    "rating": {
+      "score": 0.59,
+      "place": 18,
+      "countScores": 1150
+    }
+  },
+  {
+    "id": "entity_cream_19",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "verenska_bio_restore",
+    "label": "Verenska Bio Restore",
+    "brand": "Verenska",
+    "partnerId": "partner_verenska",
+    "image": "/demo/products/cream-19.svg",
+    "properties": {
+      "volumeMl": 50,
+      "skinTypes": [
+        "all"
+      ]
+    },
+    "rating": {
+      "score": 0.57,
+      "place": 19,
+      "countScores": 1020
+    }
+  },
+  {
+    "id": "entity_cream_20",
+    "sphereId": "sphere_face_cream",
+    "type": "product",
+    "name": "verenska_night_recovery",
+    "label": "Verenska Night Recovery",
+    "brand": "Verenska",
+    "partnerId": "partner_verenska",
+    "image": "/demo/products/cream-20.svg",
+    "properties": {
+      "volumeMl": 75,
+      "skinTypes": [
+        "dry",
+        "sensitive"
+      ]
+    },
+    "rating": {
+      "score": 0.55,
+      "place": 20,
+      "countScores": 910
+    }
+  }
+]

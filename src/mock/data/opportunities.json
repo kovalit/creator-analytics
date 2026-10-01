@@ -1,0 +1,290 @@
+[
+  {
+    "id": "offer_spf_2026_10",
+    "title": "Что лучше: SPF 50",
+    "type": "campaign",
+    "sphereId": "sphere_spf",
+    "partnerIds": [
+      "partner_nordskin",
+      "partner_hydrael"
+    ],
+    "commission": {
+      "type": "percent",
+      "value": 0.12
+    },
+    "audienceMatch": 0.93,
+    "estimated": {
+      "revenuePer1000Views": 4600,
+      "conversionRate": 0.061,
+      "expectedAov": 3900
+    },
+    "startsAt": "2026-10-15",
+    "endsAt": "2026-11-15",
+    "image": "/demo/opportunities/spf.svg",
+    "status": "available"
+  },
+  {
+    "id": "offer_serum_2026_10",
+    "title": "Что лучше: сыворотки для лица",
+    "type": "campaign",
+    "sphereId": "sphere_skincare",
+    "partnerIds": [
+      "partner_lumera",
+      "partner_velura",
+      "partner_hydrael"
+    ],
+    "commission": {
+      "type": "percent",
+      "value": 0.11
+    },
+    "audienceMatch": 0.91,
+    "estimated": {
+      "revenuePer1000Views": 4300,
+      "conversionRate": 0.058,
+      "expectedAov": 4200
+    },
+    "startsAt": "2026-10-20",
+    "endsAt": "2026-11-20",
+    "image": "/demo/opportunities/serum.svg",
+    "status": "available"
+  },
+  {
+    "id": "offer_perfume_2026_11",
+    "title": "Что лучше: парфюмерия на осень",
+    "type": "campaign",
+    "sphereId": "sphere_perfume",
+    "partnerIds": [
+      "partner_mireya",
+      "partner_lumera"
+    ],
+    "commission": {
+      "type": "percent",
+      "value": 0.13
+    },
+    "audienceMatch": 0.86,
+    "estimated": {
+      "revenuePer1000Views": 5100,
+      "conversionRate": 0.049,
+      "expectedAov": 5600
+    },
+    "startsAt": "2026-11-01",
+    "endsAt": "2026-12-01",
+    "image": "/demo/opportunities/perfume.svg",
+    "status": "available"
+  },
+  {
+    "id": "offer_hotels_2026_11",
+    "title": "Что лучше: зимние курорты",
+    "type": "campaign",
+    "sphereId": "sphere_hotels",
+    "partnerIds": [
+      "partner_velura",
+      "partner_botane"
+    ],
+    "commission": {
+      "type": "percent",
+      "value": 0.08
+    },
+    "audienceMatch": 0.79,
+    "estimated": {
+      "revenuePer1000Views": 6200,
+      "conversionRate": 0.028,
+      "expectedAov": 42000
+    },
+    "startsAt": "2026-11-10",
+    "endsAt": "2026-12-25",
+    "image": "/demo/opportunities/hotels.svg",
+    "status": "available"
+  },
+  {
+    "id": "offer_healthyfood_2026_10",
+    "title": "Что лучше: протеиновые батончики",
+    "type": "campaign",
+    "sphereId": "sphere_healthy_food",
+    "partnerIds": [
+      "partner_aqovia",
+      "partner_purenord"
+    ],
+    "commission": {
+      "type": "percent",
+      "value": 0.1
+    },
+    "audienceMatch": 0.82,
+    "estimated": {
+      "revenuePer1000Views": 2800,
+      "conversionRate": 0.072,
+      "expectedAov": 1850
+    },
+    "startsAt": "2026-10-18",
+    "endsAt": "2026-11-18",
+    "image": "/demo/opportunities/food.svg",
+    "status": "available"
+  },
+  {
+    "id": "offer_sportswear_2026_11",
+    "title": "Что лучше: одежда для бега",
+    "type": "campaign",
+    "sphereId": "sphere_sportswear",
+    "partnerIds": [
+      "partner_verenska",
+      "partner_velura"
+    ],
+    "commission": {
+      "type": "percent",
+      "value": 0.09
+    },
+    "audienceMatch": 0.77,
+    "estimated": {
+      "revenuePer1000Views": 3400,
+      "conversionRate": 0.041,
+      "expectedAov": 4700
+    },
+    "startsAt": "2026-11-05",
+    "endsAt": "2026-12-05",
+    "image": "/demo/opportunities/sportswear.svg",
+    "status": "available"
+  },
+  {
+    "id": "offer_appliance_2026_11",
+    "title": "Что лучше: техника для дома",
+    "type": "campaign",
+    "sphereId": "sphere_home_appliance",
+    "partnerIds": [
+      "partner_skinlab",
+      "partner_purenord"
+    ],
+    "commission": {
+      "type": "percent",
+      "value": 0.07
+    },
+    "audienceMatch": 0.68,
+    "estimated": {
+      "revenuePer1000Views": 5800,
+      "conversionRate": 0.022,
+      "expectedAov": 18900
+    },
+    "startsAt": "2026-11-15",
+    "endsAt": "2026-12-20",
+    "image": "/demo/opportunities/appliance.svg",
+    "status": "available"
+  },
+  {
+    "id": "offer_interior_2026_12",
+    "title": "Что лучше: декор для интерьера",
+    "type": "campaign",
+    "sphereId": "sphere_home_interior",
+    "partnerIds": [
+      "partner_botane",
+      "partner_mireya"
+    ],
+    "commission": {
+      "type": "percent",
+      "value": 0.1
+    },
+    "audienceMatch": 0.71,
+    "estimated": {
+      "revenuePer1000Views": 3900,
+      "conversionRate": 0.034,
+      "expectedAov": 6800
+    },
+    "startsAt": "2026-12-01",
+    "endsAt": "2027-01-10",
+    "image": "/demo/opportunities/interior.svg",
+    "status": "upcoming"
+  },
+  {
+    "id": "offer_facecare_set_2026_10",
+    "title": "Что лучше: наборы для ухода",
+    "type": "campaign",
+    "sphereId": "sphere_skincare",
+    "partnerIds": [
+      "partner_nordskin",
+      "partner_lumera",
+      "partner_aqovia"
+    ],
+    "commission": {
+      "type": "percent",
+      "value": 0.12
+    },
+    "audienceMatch": 0.9,
+    "estimated": {
+      "revenuePer1000Views": 5200,
+      "conversionRate": 0.054,
+      "expectedAov": 5900
+    },
+    "startsAt": "2026-10-25",
+    "endsAt": "2026-11-25",
+    "image": "/demo/opportunities/set.svg",
+    "status": "available"
+  },
+  {
+    "id": "offer_fitness_2026_11",
+    "title": "Что лучше: фитнес-клубы",
+    "type": "campaign",
+    "sphereId": "sphere_fitness",
+    "partnerIds": [
+      "partner_velura"
+    ],
+    "commission": {
+      "type": "percent",
+      "value": 0.09
+    },
+    "audienceMatch": 0.66,
+    "estimated": {
+      "revenuePer1000Views": 4100,
+      "conversionRate": 0.031,
+      "expectedAov": 12000
+    },
+    "startsAt": "2026-11-12",
+    "endsAt": "2026-12-12",
+    "image": "/demo/opportunities/fitness.svg",
+    "status": "available"
+  },
+  {
+    "id": "offer_perfume_niche_2026_12",
+    "title": "Что лучше: селективная парфюмерия",
+    "type": "campaign",
+    "sphereId": "sphere_perfume",
+    "partnerIds": [
+      "partner_mireya",
+      "partner_velura"
+    ],
+    "commission": {
+      "type": "percent",
+      "value": 0.14
+    },
+    "audienceMatch": 0.84,
+    "estimated": {
+      "revenuePer1000Views": 5600,
+      "conversionRate": 0.046,
+      "expectedAov": 7200
+    },
+    "startsAt": "2026-12-05",
+    "endsAt": "2027-01-05",
+    "image": "/demo/opportunities/perfume-niche.svg",
+    "status": "upcoming"
+  },
+  {
+    "id": "offer_restaurants_2026_11",
+    "title": "Что лучше: доставка здоровой еды",
+    "type": "campaign",
+    "sphereId": "sphere_restaurants",
+    "partnerIds": [
+      "partner_aqovia"
+    ],
+    "commission": {
+      "type": "percent",
+      "value": 0.08
+    },
+    "audienceMatch": 0.63,
+    "estimated": {
+      "revenuePer1000Views": 2200,
+      "conversionRate": 0.067,
+      "expectedAov": 1650
+    },
+    "startsAt": "2026-11-20",
+    "endsAt": "2026-12-20",
+    "image": "/demo/opportunities/restaurants.svg",
+    "status": "available"
+  }
+]

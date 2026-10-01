@@ -1,0 +1,42 @@
+[
+  {
+    "id": "social_vk_1",
+    "creatorId": "creator_alina",
+    "platform": "vk",
+    "label": "VK",
+    "handle": "@alina_beauty",
+    "url": "https://vk.com/alina_beauty",
+    "connected": true,
+    "followers": 215000
+  },
+  {
+    "id": "social_telegram_1",
+    "creatorId": "creator_alina",
+    "platform": "telegram",
+    "label": "Telegram",
+    "handle": "@alina_beauty",
+    "url": "https://t.me/alina_beauty",
+    "connected": true,
+    "followers": 127000
+  },
+  {
+    "id": "social_youtube_1",
+    "creatorId": "creator_alina",
+    "platform": "youtube",
+    "label": "YouTube",
+    "handle": "@alina.beauty",
+    "url": "https://youtube.com/@alina.beauty",
+    "connected": true,
+    "followers": 380000
+  },
+  {
+    "id": "social_rutube_1",
+    "creatorId": "creator_alina",
+    "platform": "rutube",
+    "label": "RUTUBE",
+    "handle": "alina_beauty",
+    "url": "https://rutube.ru/channel/alina_beauty",
+    "connected": true,
+    "followers": 120000
+  }
+]

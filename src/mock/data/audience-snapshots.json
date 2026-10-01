@@ -1,0 +1,308 @@
+[
+  {
+    "date": "2026-04-30",
+    "month": "2026-04",
+    "creatorId": "creator_alina",
+    "audience": {
+      "knownUsers": 41200,
+      "active30d": 24800,
+      "new30d": 9100,
+      "returning30d": 15700,
+      "buyers30d": 2050,
+      "rated30d": 7100,
+      "subscribedToSphere30d": 10200
+    },
+    "demographics": {
+      "gender": [
+        {
+          "key": "female",
+          "label": "Женщины",
+          "share": 0.8
+        },
+        {
+          "key": "male",
+          "label": "Мужчины",
+          "share": 0.18
+        },
+        {
+          "key": "unknown",
+          "label": "Не указан",
+          "share": 0.02
+        }
+      ],
+      "age": [
+        {
+          "key": "18-24",
+          "share": 0.2
+        },
+        {
+          "key": "25-34",
+          "share": 0.4
+        },
+        {
+          "key": "35-44",
+          "share": 0.27
+        },
+        {
+          "key": "45+",
+          "share": 0.13
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-05-31",
+    "month": "2026-05",
+    "creatorId": "creator_alina",
+    "audience": {
+      "knownUsers": 46800,
+      "active30d": 28200,
+      "new30d": 9900,
+      "returning30d": 18300,
+      "buyers30d": 2420,
+      "rated30d": 8300,
+      "subscribedToSphere30d": 11600
+    },
+    "demographics": {
+      "gender": [
+        {
+          "key": "female",
+          "label": "Женщины",
+          "share": 0.8
+        },
+        {
+          "key": "male",
+          "label": "Мужчины",
+          "share": 0.18
+        },
+        {
+          "key": "unknown",
+          "label": "Не указан",
+          "share": 0.02
+        }
+      ],
+      "age": [
+        {
+          "key": "18-24",
+          "share": 0.19
+        },
+        {
+          "key": "25-34",
+          "share": 0.41
+        },
+        {
+          "key": "35-44",
+          "share": 0.27
+        },
+        {
+          "key": "45+",
+          "share": 0.13
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-06-30",
+    "month": "2026-06",
+    "creatorId": "creator_alina",
+    "audience": {
+      "knownUsers": 51600,
+      "active30d": 31500,
+      "new30d": 10400,
+      "returning30d": 21100,
+      "buyers30d": 2760,
+      "rated30d": 9300,
+      "subscribedToSphere30d": 12900
+    },
+    "demographics": {
+      "gender": [
+        {
+          "key": "female",
+          "label": "Женщины",
+          "share": 0.79
+        },
+        {
+          "key": "male",
+          "label": "Мужчины",
+          "share": 0.19
+        },
+        {
+          "key": "unknown",
+          "label": "Не указан",
+          "share": 0.02
+        }
+      ],
+      "age": [
+        {
+          "key": "18-24",
+          "share": 0.19
+        },
+        {
+          "key": "25-34",
+          "share": 0.41
+        },
+        {
+          "key": "35-44",
+          "share": 0.27
+        },
+        {
+          "key": "45+",
+          "share": 0.13
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-07-31",
+    "month": "2026-07",
+    "creatorId": "creator_alina",
+    "audience": {
+      "knownUsers": 56400,
+      "active30d": 34800,
+      "new30d": 11200,
+      "returning30d": 23600,
+      "buyers30d": 3080,
+      "rated30d": 10400,
+      "subscribedToSphere30d": 14100
+    },
+    "demographics": {
+      "gender": [
+        {
+          "key": "female",
+          "label": "Женщины",
+          "share": 0.79
+        },
+        {
+          "key": "male",
+          "label": "Мужчины",
+          "share": 0.19
+        },
+        {
+          "key": "unknown",
+          "label": "Не указан",
+          "share": 0.02
+        }
+      ],
+      "age": [
+        {
+          "key": "18-24",
+          "share": 0.18
+        },
+        {
+          "key": "25-34",
+          "share": 0.42
+        },
+        {
+          "key": "35-44",
+          "share": 0.27
+        },
+        {
+          "key": "45+",
+          "share": 0.13
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "month": "2026-08",
+    "creatorId": "creator_alina",
+    "audience": {
+      "knownUsers": 62100,
+      "active30d": 38600,
+      "new30d": 12100,
+      "returning30d": 26500,
+      "buyers30d": 3510,
+      "rated30d": 11700,
+      "subscribedToSphere30d": 15500
+    },
+    "demographics": {
+      "gender": [
+        {
+          "key": "female",
+          "label": "Женщины",
+          "share": 0.78
+        },
+        {
+          "key": "male",
+          "label": "Мужчины",
+          "share": 0.2
+        },
+        {
+          "key": "unknown",
+          "label": "Не указан",
+          "share": 0.02
+        }
+      ],
+      "age": [
+        {
+          "key": "18-24",
+          "share": 0.18
+        },
+        {
+          "key": "25-34",
+          "share": 0.42
+        },
+        {
+          "key": "35-44",
+          "share": 0.27
+        },
+        {
+          "key": "45+",
+          "share": 0.13
+        }
+      ]
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "month": "2026-09",
+    "creatorId": "creator_alina",
+    "audience": {
+      "knownUsers": 68400,
+      "active30d": 42100,
+      "new30d": 12700,
+      "returning30d": 29400,
+      "buyers30d": 3890,
+      "rated30d": 12800,
+      "subscribedToSphere30d": 16700
+    },
+    "demographics": {
+      "gender": [
+        {
+          "key": "female",
+          "label": "Женщины",
+          "share": 0.78
+        },
+        {
+          "key": "male",
+          "label": "Мужчины",
+          "share": 0.2
+        },
+        {
+          "key": "unknown",
+          "label": "Не указан",
+          "share": 0.02
+        }
+      ],
+      "age": [
+        {
+          "key": "18-24",
+          "share": 0.18
+        },
+        {
+          "key": "25-34",
+          "share": 0.42
+        },
+        {
+          "key": "35-44",
+          "share": 0.27
+        },
+        {
+          "key": "45+",
+          "share": 0.13
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "datasetVersion": 1,
+  "generatedAt": "2026-10-01T12:00:00+03:00",
+  "locale": "ru-RU",
+  "currency": "RUB",
+  "timezone": "Europe/Moscow",
+  "demoPeriod": {
+    "from": "2026-04-01",
+    "to": "2026-09-30"
+  },
+  "defaultPeriod": "30d",
+  "creatorId": "creator_alina",
+  "creatorName": "Алина Морозова",
+  "anchor": {
+    "views": 100000,
+    "clicks": 18400,
+    "addToCart": 4700,
+    "orders": 1260,
+    "purchasedOrders": 1035,
+    "gmv": 3800000,
+    "commission": 380000
+  }
+}

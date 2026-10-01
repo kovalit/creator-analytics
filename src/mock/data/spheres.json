@@ -1,0 +1,92 @@
+[
+  {
+    "id": "sphere_beauty",
+    "name": "beauty",
+    "label": "Красота",
+    "parentId": null
+  },
+  {
+    "id": "sphere_skincare",
+    "name": "skincare",
+    "label": "Уход за кожей",
+    "parentId": "sphere_beauty"
+  },
+  {
+    "id": "sphere_face_cream",
+    "name": "face_cream",
+    "label": "Кремы для лица",
+    "parentId": "sphere_skincare"
+  },
+  {
+    "id": "sphere_spf",
+    "name": "spf",
+    "label": "SPF-защита",
+    "parentId": "sphere_skincare"
+  },
+  {
+    "id": "sphere_perfume",
+    "name": "perfume",
+    "label": "Парфюмерия",
+    "parentId": "sphere_beauty"
+  },
+  {
+    "id": "sphere_fashion",
+    "name": "fashion",
+    "label": "Одежда",
+    "parentId": null
+  },
+  {
+    "id": "sphere_sportswear",
+    "name": "sportswear",
+    "label": "Спортивная одежда",
+    "parentId": "sphere_fashion"
+  },
+  {
+    "id": "sphere_travel",
+    "name": "travel",
+    "label": "Путешествия",
+    "parentId": null
+  },
+  {
+    "id": "sphere_hotels",
+    "name": "hotels",
+    "label": "Отели",
+    "parentId": "sphere_travel"
+  },
+  {
+    "id": "sphere_healthy_food",
+    "name": "healthy_food",
+    "label": "Здоровое питание",
+    "parentId": null
+  },
+  {
+    "id": "sphere_restaurants",
+    "name": "restaurants",
+    "label": "Рестораны",
+    "parentId": null
+  },
+  {
+    "id": "sphere_fitness",
+    "name": "fitness",
+    "label": "Фитнес",
+    "parentId": null
+  },
+  {
+    "id": "sphere_home",
+    "name": "home",
+    "label": "Товары для дома",
+    "parentId": null
+  },
+  {
+    "id": "sphere_home_appliance",
+    "name": "home_appliance",
+    "label": "Техника",
+    "parentId": "sphere_home"
+  },
+  {
+    "id": "sphere_home_interior",
+    "name": "home_interior",
+    "label": "Интерьер",
+    "parentId": "sphere_home"
+  }
+]

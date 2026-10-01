@@ -1,0 +1,62 @@
+[
+  {
+    "month": "2026-04",
+    "creatorId": "creator_alina",
+    "ratingViews": 19680,
+    "ratingsCreated": 5682,
+    "criteriaUsed": 10920,
+    "entitiesCompared": 6960,
+    "presetsCreated": 774,
+    "productsSaved": 4692
+  },
+  {
+    "month": "2026-05",
+    "creatorId": "creator_alina",
+    "ratingViews": 22304,
+    "ratingsCreated": 6440,
+    "criteriaUsed": 12376,
+    "entitiesCompared": 7888,
+    "presetsCreated": 877,
+    "productsSaved": 5318
+  },
+  {
+    "month": "2026-06",
+    "creatorId": "creator_alina",
+    "ratingViews": 24928,
+    "ratingsCreated": 7197,
+    "criteriaUsed": 13832,
+    "entitiesCompared": 8816,
+    "presetsCreated": 980,
+    "productsSaved": 5943
+  },
+  {
+    "month": "2026-07",
+    "creatorId": "creator_alina",
+    "ratingViews": 27224,
+    "ratingsCreated": 7860,
+    "criteriaUsed": 15106,
+    "entitiesCompared": 9628,
+    "presetsCreated": 1071,
+    "productsSaved": 6491
+  },
+  {
+    "month": "2026-08",
+    "creatorId": "creator_alina",
+    "ratingViews": 30176,
+    "ratingsCreated": 8712,
+    "criteriaUsed": 16744,
+    "entitiesCompared": 10672,
+    "presetsCreated": 1187,
+    "productsSaved": 7194
+  },
+  {
+    "month": "2026-09",
+    "creatorId": "creator_alina",
+    "ratingViews": 32800,
+    "ratingsCreated": 9470,
+    "criteriaUsed": 18200,
+    "entitiesCompared": 11600,
+    "presetsCreated": 1290,
+    "productsSaved": 7820
+  }
+]

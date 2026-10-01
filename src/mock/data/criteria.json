@@ -1,0 +1,462 @@
+[
+  {
+    "id": "criterion_hydration",
+    "name": "hydration",
+    "label": "Увлажнение",
+    "description": "Насколько хорошо средство поддерживает ощущение увлажнённой кожи.",
+    "code": "hydr",
+    "sphereIds": [
+      "sphere_face_cream"
+    ]
+  },
+  {
+    "id": "criterion_composition",
+    "name": "composition",
+    "label": "Состав",
+    "description": "Качество и безопасность ингредиентов в составе.",
+    "code": "comp",
+    "sphereIds": [
+      "sphere_face_cream"
+    ]
+  },
+  {
+    "id": "criterion_sensitive_skin",
+    "name": "sensitive_skin",
+    "label": "Для чувствительной кожи",
+    "description": "Подходит ли средство для чувствительной и склонной к реакциям кожи.",
+    "code": "sens",
+    "sphereIds": [
+      "sphere_face_cream"
+    ]
+  },
+  {
+    "id": "criterion_texture",
+    "name": "texture",
+    "label": "Текстура",
+    "description": "Приятность текстуры при нанесении.",
+    "code": "text",
+    "sphereIds": [
+      "sphere_face_cream"
+    ]
+  },
+  {
+    "id": "criterion_absorption",
+    "name": "absorption",
+    "label": "Впитываемость",
+    "description": "Как быстро и полно крем впитывается без остатка.",
+    "code": "absb",
+    "sphereIds": [
+      "sphere_face_cream"
+    ]
+  },
+  {
+    "id": "criterion_comfort",
+    "name": "comfort",
+    "label": "Комфорт",
+    "description": "Ощущение комфорта на коже в течение дня.",
+    "code": "cmft",
+    "sphereIds": [
+      "sphere_face_cream"
+    ]
+  },
+  {
+    "id": "criterion_scent",
+    "name": "scent",
+    "label": "Аромат",
+    "description": "Приятность и выраженность аромата.",
+    "code": "scnt",
+    "sphereIds": [
+      "sphere_face_cream"
+    ]
+  },
+  {
+    "id": "criterion_economy",
+    "name": "economy",
+    "label": "Экономичность",
+    "description": "Насколько экономно расходуется средство.",
+    "code": "econ",
+    "sphereIds": [
+      "sphere_face_cream"
+    ]
+  },
+  {
+    "id": "criterion_packaging",
+    "name": "packaging",
+    "label": "Упаковка",
+    "description": "Удобство и качество упаковки.",
+    "code": "pack",
+    "sphereIds": [
+      "sphere_face_cream"
+    ]
+  },
+  {
+    "id": "criterion_price_value",
+    "name": "price_value",
+    "label": "Цена/ценность",
+    "description": "Соотношение цены и полученного результата.",
+    "code": "pval",
+    "sphereIds": [
+      "sphere_face_cream"
+    ]
+  },
+  {
+    "id": "criterion_no_stickiness",
+    "name": "no_stickiness",
+    "label": "Отсутствие липкости",
+    "description": "Нет ли ощущения липкости после нанесения.",
+    "code": "nstk",
+    "sphereIds": [
+      "sphere_face_cream"
+    ]
+  },
+  {
+    "id": "criterion_longevity",
+    "name": "longevity",
+    "label": "Длительность эффекта",
+    "description": "Как долго сохраняется эффект увлажнения.",
+    "code": "long",
+    "sphereIds": [
+      "sphere_face_cream"
+    ]
+  },
+  {
+    "id": "criterion_spf_protection",
+    "name": "spf_protection",
+    "label": "Степень защиты",
+    "description": "Эффективность защиты от UV-излучения.",
+    "code": "spfp",
+    "sphereIds": [
+      "sphere_spf"
+    ]
+  },
+  {
+    "id": "criterion_no_white_cast",
+    "name": "no_white_cast",
+    "label": "Без белёсого следа",
+    "description": "Не оставляет ли средство белый налёт.",
+    "code": "nwct",
+    "sphereIds": [
+      "sphere_spf"
+    ]
+  },
+  {
+    "id": "criterion_water_resistance",
+    "name": "water_resistance",
+    "label": "Водостойкость",
+    "description": "Сохраняется ли защита при контакте с водой.",
+    "code": "watr",
+    "sphereIds": [
+      "sphere_spf"
+    ]
+  },
+  {
+    "id": "criterion_under_makeup",
+    "name": "under_makeup",
+    "label": "Под макияж",
+    "description": "Насколько хорошо ложится под макияж.",
+    "code": "undm",
+    "sphereIds": [
+      "sphere_spf"
+    ]
+  },
+  {
+    "id": "criterion_longevity_perfume",
+    "name": "longevity_perfume",
+    "label": "Стойкость",
+    "description": "Как долго держится аромат.",
+    "code": "pfln",
+    "sphereIds": [
+      "sphere_perfume"
+    ]
+  },
+  {
+    "id": "criterion_sillage",
+    "name": "sillage",
+    "label": "Шлейф",
+    "description": "Насколько выражен шлейф аромата.",
+    "code": "sill",
+    "sphereIds": [
+      "sphere_perfume"
+    ]
+  },
+  {
+    "id": "criterion_uniqueness",
+    "name": "uniqueness",
+    "label": "Оригинальность",
+    "description": "Узнаваемость и оригинальность аромата.",
+    "code": "uniq",
+    "sphereIds": [
+      "sphere_perfume"
+    ]
+  },
+  {
+    "id": "criterion_value_perfume",
+    "name": "value_perfume",
+    "label": "Цена/объём",
+    "description": "Соотношение цены и объёма флакона.",
+    "code": "pfvl",
+    "sphereIds": [
+      "sphere_perfume"
+    ]
+  },
+  {
+    "id": "criterion_fabric_quality",
+    "name": "fabric_quality",
+    "label": "Качество ткани",
+    "description": "Качество и износостойкость материала.",
+    "code": "fabq",
+    "sphereIds": [
+      "sphere_fashion"
+    ]
+  },
+  {
+    "id": "criterion_fit",
+    "name": "fit",
+    "label": "Посадка",
+    "description": "Насколько хорошо вещь сидит по фигуре.",
+    "code": "fitt",
+    "sphereIds": [
+      "sphere_fashion"
+    ]
+  },
+  {
+    "id": "criterion_style",
+    "name": "style",
+    "label": "Стиль",
+    "description": "Актуальность и привлекательность дизайна.",
+    "code": "styl",
+    "sphereIds": [
+      "sphere_fashion"
+    ]
+  },
+  {
+    "id": "criterion_breathability",
+    "name": "breathability",
+    "label": "Дышащесть",
+    "description": "Отводит ли ткань влагу и даёт ли дышать коже.",
+    "code": "brth",
+    "sphereIds": [
+      "sphere_sportswear"
+    ]
+  },
+  {
+    "id": "criterion_stretch",
+    "name": "stretch",
+    "label": "Эластичность",
+    "description": "Свобода движения во время тренировки.",
+    "code": "strc",
+    "sphereIds": [
+      "sphere_sportswear"
+    ]
+  },
+  {
+    "id": "criterion_durability_sport",
+    "name": "durability_sport",
+    "label": "Износостойкость",
+    "description": "Как вещь переносит стирки и нагрузки.",
+    "code": "dusp",
+    "sphereIds": [
+      "sphere_sportswear"
+    ]
+  },
+  {
+    "id": "criterion_route_value",
+    "name": "route_value",
+    "label": "Ценность маршрута",
+    "description": "Насколько маршрут оправдывает ожидания.",
+    "code": "rval",
+    "sphereIds": [
+      "sphere_travel"
+    ]
+  },
+  {
+    "id": "criterion_service_travel",
+    "name": "service_travel",
+    "label": "Сервис",
+    "description": "Уровень сервиса в поездке.",
+    "code": "srvt",
+    "sphereIds": [
+      "sphere_travel"
+    ]
+  },
+  {
+    "id": "criterion_cleanliness",
+    "name": "cleanliness",
+    "label": "Чистота",
+    "description": "Чистота номеров и общих зон.",
+    "code": "clnl",
+    "sphereIds": [
+      "sphere_hotels"
+    ]
+  },
+  {
+    "id": "criterion_location",
+    "name": "location",
+    "label": "Расположение",
+    "description": "Удобство расположения отеля.",
+    "code": "locn",
+    "sphereIds": [
+      "sphere_hotels"
+    ]
+  },
+  {
+    "id": "criterion_breakfast",
+    "name": "breakfast",
+    "label": "Завтрак",
+    "description": "Качество и разнообразие завтрака.",
+    "code": "brkf",
+    "sphereIds": [
+      "sphere_hotels"
+    ]
+  },
+  {
+    "id": "criterion_value_hotel",
+    "name": "value_hotel",
+    "label": "Цена/качество",
+    "description": "Соотношение цены и уровня отеля.",
+    "code": "htvl",
+    "sphereIds": [
+      "sphere_hotels"
+    ]
+  },
+  {
+    "id": "criterion_ingredients_food",
+    "name": "ingredients_food",
+    "label": "Состав",
+    "description": "Натуральность и качество ингредиентов.",
+    "code": "ingf",
+    "sphereIds": [
+      "sphere_healthy_food"
+    ]
+  },
+  {
+    "id": "criterion_taste",
+    "name": "taste",
+    "label": "Вкус",
+    "description": "Вкусовые качества продукта.",
+    "code": "tast",
+    "sphereIds": [
+      "sphere_healthy_food"
+    ]
+  },
+  {
+    "id": "criterion_nutrition",
+    "name": "nutrition",
+    "label": "Пищевая ценность",
+    "description": "Баланс белков, жиров и углеводов.",
+    "code": "nutr",
+    "sphereIds": [
+      "sphere_healthy_food"
+    ]
+  },
+  {
+    "id": "criterion_cuisine",
+    "name": "cuisine",
+    "label": "Кухня",
+    "description": "Качество и подача блюд.",
+    "code": "cusn",
+    "sphereIds": [
+      "sphere_restaurants"
+    ]
+  },
+  {
+    "id": "criterion_atmosphere",
+    "name": "atmosphere",
+    "label": "Атмосфера",
+    "description": "Общая атмосфера заведения.",
+    "code": "atms",
+    "sphereIds": [
+      "sphere_restaurants"
+    ]
+  },
+  {
+    "id": "criterion_equipment",
+    "name": "equipment",
+    "label": "Оборудование",
+    "description": "Качество и ассортимент оборудования.",
+    "code": "eqpm",
+    "sphereIds": [
+      "sphere_fitness"
+    ]
+  },
+  {
+    "id": "criterion_trainers",
+    "name": "trainers",
+    "label": "Тренеры",
+    "description": "Квалификация тренерского состава.",
+    "code": "trnr",
+    "sphereIds": [
+      "sphere_fitness"
+    ]
+  },
+  {
+    "id": "criterion_build_quality",
+    "name": "build_quality",
+    "label": "Качество сборки",
+    "description": "Надёжность материалов и сборки.",
+    "code": "bldq",
+    "sphereIds": [
+      "sphere_home"
+    ]
+  },
+  {
+    "id": "criterion_value_home",
+    "name": "value_home",
+    "label": "Цена/качество",
+    "description": "Соотношение цены и качества.",
+    "code": "hmvl",
+    "sphereIds": [
+      "sphere_home"
+    ]
+  },
+  {
+    "id": "criterion_energy_efficiency",
+    "name": "energy_efficiency",
+    "label": "Энергоэффективность",
+    "description": "Экономичность энергопотребления.",
+    "code": "enef",
+    "sphereIds": [
+      "sphere_home_appliance"
+    ]
+  },
+  {
+    "id": "criterion_noise",
+    "name": "noise",
+    "label": "Уровень шума",
+    "description": "Насколько тихо работает техника.",
+    "code": "nois",
+    "sphereIds": [
+      "sphere_home_appliance"
+    ]
+  },
+  {
+    "id": "criterion_reliability",
+    "name": "reliability",
+    "label": "Надёжность",
+    "description": "Долговечность и отказоустойчивость.",
+    "code": "rely",
+    "sphereIds": [
+      "sphere_home_appliance"
+    ]
+  },
+  {
+    "id": "criterion_design_interior",
+    "name": "design_interior",
+    "label": "Дизайн",
+    "description": "Эстетика и сочетаемость в интерьере.",
+    "code": "dsgn",
+    "sphereIds": [
+      "sphere_home_interior"
+    ]
+  },
+  {
+    "id": "criterion_material_interior",
+    "name": "material_interior",
+    "label": "Материалы",
+    "description": "Качество используемых материалов.",
+    "code": "mtri",
+    "sphereIds": [
+      "sphere_home_interior"
+    ]
+  }
+]
