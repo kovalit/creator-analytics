@@ -16,7 +16,7 @@ export function BrandLogo({
   const [failed, setFailed] = useState(false);
 
   return (
-    <div className={cn('flex items-center gap-2.5', className)}>
+    <div className={cn('flex flex-col items-start gap-1', className)}>
       {failed ? (
         <span className="text-[15px] font-bold text-text-primary">
           WhatsBetter<span className="text-primary">.me</span>
@@ -32,7 +32,7 @@ export function BrandLogo({
         />
       )}
       {showProduct && (
-        <span className="rounded-md bg-primary-soft px-1.5 py-0.5 text-[11px] font-semibold text-primary">
+        <span className="text-[11.5px] font-semibold uppercase tracking-[0.14em] text-primary">
           {PRODUCT_NAME}
         </span>
       )}
